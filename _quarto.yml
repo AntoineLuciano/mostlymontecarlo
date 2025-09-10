@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Mostly Monte Carlo"
+  title: "Mostly Monte Carlo Seminar"
   navbar:
     left:
       - href: index.qmd
