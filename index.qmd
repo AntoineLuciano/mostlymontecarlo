@@ -13,7 +13,11 @@ Organised by Andrea Bertazzi and [Joshua Bon](https://bonstats.github.io).
 ------------------------------------------------------------------------
 
 ::: callout-note
-## Next Seminar: 16th May
+
+## Next Seminar: TBD
+
+
+## Last Seminar: 16th May
 
 [Salle 08](psc_rooms.qmd), 3PM Friday
 
