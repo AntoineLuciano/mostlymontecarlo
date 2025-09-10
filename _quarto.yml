@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Mostly Monte Carlo Seminar"
+  favicon: "data/favicon.png"
   navbar:
     left:
       - href: index.qmd
