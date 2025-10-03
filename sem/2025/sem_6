@@ -1,0 +1,36 @@
+---
+  title: "May"
+  date: "2025-05-16 15:00"
+  published-title: "Time and date"
+  date-format: "hA dddd, MMM D, YYYY"
+---
+
+[Salle 08](../../psc_rooms.qmd), [PariSanté Campus](https://maps.app.goo.gl/cpFoxoZgbT6HCV6x9)
+
+------------------------------------------------------------------------
+
+::: callout-tip
+## Seminar time
+
+This seminar is scheduled for **3PM** (not the usual 4PM)
+:::
+
+
+### Rejection sampling with quantum tricks: sampling determinantal point processes on a quantum computer
+
+**Rémi Bardenet** *CNRS and CRIStAL, Université de Lille*
+
+Joint work with Michaël Fanuel and Alexandre Feller.
+
+Be it feature selection in regression or minibatch sampling in stochastic gradient descent, many data science applications can be formulated as selecting a small representative subset of a larger ground set of N items. Determinantal point processes (DPPs) are probability distributions originating in quantum optics, which allow selecting such representative subsets at a reasonable computational cost, and sometimes yield better-than-iid statistical guarantees. I will show that, given access to a quantum computer with as many qubits as the cardinality N of the ground set (an unrealistic assumption in 2025), one can sample a large class of determinantal point processes faster than on a classical computer. For Monte Carlo aficionados, I will show neat peculiarities of the quantum framework that allow us to replace a costly matrix decomposition by a cheap rejection sampling routine. The talk is based on Reference [2]. I will try to stick to a level of exposition that does not require any prior affinity with quantum computing, but if you have time prior to the talk, you can read Section 3 of [1] for a 3-page introduction to some of the notions I'll use.
+
+[1] https://arxiv.org/abs/2305.15851
+
+[2] https://arxiv.org/abs/2503.05906
+
+
+### On theoretical guarantees for nonconvex sampling
+
+**Martin Chak** *Università Bocconi*
+
+I will review recent results on guarantees for sampling algorithms targeting multimodal densities on $\mathbb{R}^d$. For the class of target logdensities with bounded Hessians and strong concavity outside a ball of radius $R$, I present the result that there are constants $C>c>0$ such that if $R<c\sqrt{d}$, then complete polynomial complexity is possible with an explicit algorithm, whilst if $R>C\sqrt{d}$, then exponential-in-$d$ complexity is necessary for any algorithm. Moreover, for the class of logdensities that have bounded Hessians and satisfy a distant dissipativity condition, I present unimodal counterexamples from the strongest parameter regimes that require exponential-in-$d$ complexity.
