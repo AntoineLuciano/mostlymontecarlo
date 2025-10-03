@@ -20,7 +20,8 @@ This seminar is scheduled for **3PM**
 
 **Timothy JOHNSTON** *CEREMADE, Université Paris Dauphine--PSL*
 
-Joint work with Michaël Fanuel and Alexandre Feller.
+Joint work with Andrea Bertazzi, Alain Durmus and Gareth Roberts. Available on [arXiv](https://arxiv.org/abs/2502.17150).
+
 
 In this talk we shall discuss differential privacy, a framework for quantifying the extent to which a random output depends on the information used to produce it. After introducing several related definition of differential privacy, we shall discuss techniques used to show the differential privacy of both trajectories and single draws from Markov Chains. In doing so we shall touch on a perturbation technique which allows for Wasserstein type bounds to be converted into stronger distances like the KL and Renyi divergence.
 
@@ -28,6 +29,9 @@ In this talk we shall discuss differential privacy, a framework for quantifying 
 ### Permutations accelerate Approximate Bayesian Computation
 
 **Antoine LUCIANO** *CEREMADE, Université Paris Dauphine--PSL*
+
+Joint work with Charly Andral, Christian P. Robert and Robin J. Ryder. Available on [arXiv](https://arxiv.org/abs/2507.06037).
+
 
 Approximate Bayesian Computation (ABC) methods have become essential tools for performing inference when likelihood functions are intractable or computationally prohibitive. However, their scalability remains a major challenge in hierarchical or high-dimensional models. In this paper, we introduce permABC, a new ABC framework designed for settings with both global and local parameters, where observations are grouped into exchangeable compartments.
 Building upon the Sequential Monte Carlo ABC (ABC-SMC) framework, permABC exploits the exchangeability of compartments through permutation-based matching, significantly improving computational efficiency.

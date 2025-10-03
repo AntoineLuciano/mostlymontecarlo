@@ -8,14 +8,24 @@ A monthly seminar on the theory and practice of Monte Carlo in statistics and da
 
 Held on the **2nd Friday of each month** (approximately) at the **PariSanté Campus**.
 
-Organised by Andrea Bertazzi and [Joshua Bon](https://bonstats.github.io).
+Organised by Timothy Johnston and [Antoine Luciano](https://sites.google.com/view/aluciano), and formerly organised by Andrea Bertazzi and [Joshua Bon](https://bonstats.github.io).
 
 ------------------------------------------------------------------------
 
 ::: callout-note
 
-## Next Seminar: TBD
+## Next Seminar: 17th October
 
+[Salle TBD](psc_rooms.qmd), 3PM Friday
+
+-  **Timothy Johnston** *CEREMADE, Université Paris Dauphine--PSL*
+-  **Antoine Luciano** *CEREMADE, Université Paris Dauphine--PSL*
+
+[More details...](sem/2025/s2025_10.qmd)
+:::
+
+
+::: callout-note
 
 ## Last Seminar: 16th May
 
