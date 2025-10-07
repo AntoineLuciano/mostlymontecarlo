@@ -24,6 +24,17 @@ Organised by Timothy Johnston and [Antoine Luciano](https://sites.google.com/vie
 [More details...](sem/2025/s2025_10.qmd)
 :::
 
+::: callout-note
+
+## Following Seminar: 13th October
+
+[Salle TBD](psc_rooms.qmd), 4PM Thursday
+
+-  **Omiros Papaspiliopoulos** *Universita' Bocconi*
+
+[More details...](sem/2025/s2025_11.qmd)
+:::
+
 
 ::: callout-note
 
