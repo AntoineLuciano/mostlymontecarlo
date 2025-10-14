@@ -16,7 +16,7 @@ Organised by Timothy Johnston and [Antoine Luciano](https://sites.google.com/vie
 
 ## Next Seminar: 17th October
 
-[Salle TBD](psc_rooms.qmd), 3PM Friday
+[Salle Y](psc_rooms.qmd), 3PM Friday
 
 -  **Timothy Johnston** *CEREMADE, Université Paris Dauphine--PSL*
 -  **Antoine Luciano** *CEREMADE, Université Paris Dauphine--PSL*
