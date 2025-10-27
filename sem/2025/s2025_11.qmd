@@ -1,6 +1,6 @@
 ---
   title: "November"
-  date: "2025-11-13 16:00"
+  date: "2025-11-13 15:00"
   published-title: "Time and date"
   date-format: "hA dddd, MMM D, YYYY"
 ---
@@ -12,7 +12,7 @@
 ::: callout-tip
 ## Seminar time
 
-This seminar is scheduled on a **Thursday** at **4PM** 
+This seminar is scheduled on a **Thursday** at **3PM** 
 :::
 
 

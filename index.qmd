@@ -17,7 +17,7 @@ Organised by Timothy Johnston and [Antoine Luciano](https://sites.google.com/vie
 
 ## Following Seminar: 13th November
 
-[Salle 08](psc_rooms.qmd), 4PM Thursday
+[Salle 08](psc_rooms.qmd), 3PM Thursday
 
 -  **Omiros Papaspiliopoulos** *Universita' Bocconi*
 -  **Adrien Corenflos** *University of Warwick*
