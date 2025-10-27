@@ -12,11 +12,24 @@ Organised by Timothy Johnston and [Antoine Luciano](https://sites.google.com/vie
 
 ------------------------------------------------------------------------
 
-::: callout-note
 
-## Next Seminar: 17th October
+::: callout-tip
 
-[Salle 7](psc_rooms.qmd), 3PM Friday
+## Following Seminar: 13th November
+
+[Salle 08](psc_rooms.qmd), 4PM Thursday
+
+-  **Omiros Papaspiliopoulos** *Universita' Bocconi*
+-  **Adrien Corenflos** *University of Warwick*
+
+[More details...](sem/2025/s2025_11.qmd)
+:::
+
+::: callout-warning
+
+## Last Seminar: 17th October
+
+[Salle 07](psc_rooms.qmd), 3PM Friday
 
 -  **Timothy Johnston** *CEREMADE, Université Paris Dauphine--PSL*
 -  **Antoine Luciano** *CEREMADE, Université Paris Dauphine--PSL*
@@ -24,29 +37,8 @@ Organised by Timothy Johnston and [Antoine Luciano](https://sites.google.com/vie
 [More details...](sem/2025/s2025_10.qmd)
 :::
 
-::: callout-note
-
-## Following Seminar: 13th November
-
-[Salle TBD](psc_rooms.qmd), 4PM Thursday
-
--  **Omiros Papaspiliopoulos** *Universita' Bocconi*
-
-[More details...](sem/2025/s2025_11.qmd)
-:::
 
 
-::: callout-note
-
-## Last Seminar: 16th May
-
-[Salle 08](psc_rooms.qmd), 3PM Friday
-
--  **Rémi Bardenet** *CNRS and CRIStAL, Université de Lille*
--  **Martin Chak** *Università Bocconi*
-
-[More details...](sem/2025/s2025_05.qmd)
-:::
 
 ## Join the mailing list
 

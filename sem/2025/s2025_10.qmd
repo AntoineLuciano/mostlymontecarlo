@@ -5,7 +5,7 @@
   date-format: "hA dddd, MMM D, YYYY"
 ---
 
-[Salle 7](../../psc_rooms.qmd), [PariSanté Campus](https://maps.app.goo.gl/cpFoxoZgbT6HCV6x9)
+[Salle 07](../../psc_rooms.qmd), [PariSanté Campus](https://maps.app.goo.gl/cpFoxoZgbT6HCV6x9)
 
 ------------------------------------------------------------------------
 
