@@ -25,6 +25,7 @@ website:
           - sem/2025/s2025_05.qmd
           - sem/2025/s2025_10.qmd
           - sem/2025/s2025_11.qmd
+          - sem/2025/s2025_12.qmd
       - section: "2024"
         href: sem/summary_2024.qmd
         contents:

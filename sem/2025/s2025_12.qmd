@@ -1,0 +1,30 @@
+---
+  title: "December"
+  date: "2025-12-12 15:00"
+  published-title: "Time and date"
+  date-format: "hA dddd, MMM D, YYYY"
+---
+
+[Salle 03](../../psc_rooms.qmd), [PariSanté Campus](https://maps.app.goo.gl/cpFoxoZgbT6HCV6x9)
+
+------------------------------------------------------------------------
+
+::: callout-tip
+## Seminar time
+
+This seminar is scheduled on a **Friday** at **3PM** 
+:::
+
+
+### Least squares variational inference
+
+
+**[Yvann Le Fay](https://crest.science/user/yvann-le-fay/)** *CREST, ENSAE*
+
+Variational inference seeks the best approximation of a target distribution within a chosen family, where "best" means minimizing Kullback-Leibler divergence. When the approximation family is exponential, the optimal approximation satisfies a fixed-point equation. We introduce LSVI (Least Squares Variational Inference), a gradient-free, Monte Carlo-based scheme for the fixed-point recursion, where each iteration boils down to performing ordinary least squares regression on tempered log-target evaluations under the variational approximation. We show that LSVI is equivalent to biased stochastic natural gradient descent and use this to derive convergence rates with respect to the numbers of samples and iterations. When the approximation family is Gaussian, LSVI involves inverting the Fisher information matrix, whose size grows quadratically with dimension d. We exploit the regression formulation to eliminate the need for this inversion, yielding O(d^3) complexity in the full-covariance case and O(d) in the mean-field case. Finally, we numerically demonstrate LSVI’s performance on various tasks, including logistic regression, discrete variable selection, and Bayesian synthetic likelihood, showing competitive results with state-of-the-art methods, even when gradients are unavailable.
+
+### Beyond the Unified Skew-Normal: Extended Models for Bayesian Classification
+**Paolo Onorati** *CEREMADE, Université Paris Dauphine - PSL*
+
+Binary classification models typically lose the conjugacy and computational simplicity enjoyed by Gaussian models. While the Unified Skew-Normal (SUN) family has recently been shown to be conjugated under the probit model, two new developments are presented that extend this idea to a broader class of link functions, including both logit and probit. In the parametric setting, the Perturbed Unified Skew-Normal (pSUN) distribution is introduced; it is conjugate to any binary regression model whose link admits a scale-mixture representation of Gaussian random variables, enabling tractable posterior summaries, efficient sampling schemes, and strong performance in high-dimensional covariate settings. The discussion then moves to the nonparametric domain, where the Quasi SUN family and the associated stochastic process provide conjugacy for nonparametric logit and probit models while preserving key closure properties. A stochastic representation of this process yields practical computational improvements over existing Gaussian-based approximations. Together, these SUN-type extensions offer promising tools for Bayesian classification with accurate posterior inference.
+

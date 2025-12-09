@@ -11,11 +11,21 @@ Held on the **2nd Friday of each month** (approximately) at the **PariSanté Cam
 Organised by Timothy Johnston and [Antoine Luciano](https://sites.google.com/view/aluciano), and formerly organised by Andrea Bertazzi and [Joshua Bon](https://bonstats.github.io).
 
 ------------------------------------------------------------------------
-
-
 ::: callout-tip
 
-## Following Seminar: 13th November
+## Following Seminar: 12th December
+
+[Salle 03](psc_rooms.qmd), 3PM Thursday
+
+-  **Yvann le Fay** *ENSAE*
+-  **Paolo Onorati** *Université Paris Dauphine - PSL*
+
+[More details...](sem/2025/s2025_12.qmd)
+:::
+
+::: callout-warning
+
+## Last Seminar: 13th November
 
 [Salle 08](psc_rooms.qmd), 3PM Thursday
 
@@ -24,19 +34,6 @@ Organised by Timothy Johnston and [Antoine Luciano](https://sites.google.com/vie
 
 [More details...](sem/2025/s2025_11.qmd)
 :::
-
-::: callout-warning
-
-## Last Seminar: 17th October
-
-[Salle 07](psc_rooms.qmd), 3PM Friday
-
--  **Timothy Johnston** *CEREMADE, Université Paris Dauphine--PSL*
--  **Antoine Luciano** *CEREMADE, Université Paris Dauphine--PSL*
-
-[More details...](sem/2025/s2025_10.qmd)
-:::
-
 
 
 
