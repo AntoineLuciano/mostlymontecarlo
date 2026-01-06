@@ -1,0 +1,29 @@
+---
+  title: "January"
+  date: "2026-01-16 15:00"
+  published-title: "Time and date"
+  date-format: "hA dddd, MMM D, YYYY"
+---
+
+[Salle 03](../../psc_rooms.qmd), [PariSanté Campus](https://maps.app.goo.gl/cpFoxoZgbT6HCV6x9)
+
+------------------------------------------------------------------------
+
+:::{.callout-tip}
+## Seminar time
+
+This seminar is scheduled for **3PM**. 
+:::
+
+### [Adaptive Stereographic MCMC](https://arxiv.org/abs/2408.11780)
+
+**Cameron Bell** *CEREMADE, Université Paris Dauphine - PSL*
+
+In order to tackle the problem of sampling from heavy tailed, high dimensional distributions via Markov Chain Monte Carlo (MCMC) methods, [Yang, Latuszyński, and Roberts (2022)](arXiv:2205.12112) introduces the stereographic projection as a tool to compactify \mathbb{R}^d and transform the problem into sampling from a density on the unit sphere \mathbb{S}^d. However, the improvement in algorithmic efficiency, as well as the computational cost of the implementation, are still significantly impacted by the parameters used in this transformation.
+To address this, we introduce adaptive versions three stereographic MCMC algorithms - the Stereographic Random Walk (SRW), the Stereographic Slice Sampler (SSS), and the Stereographic Bouncy Particle Sampler (SBPS) - which automatically update the parameters of the algorithms as the run progresses. The adaptive setup allows to better exploit the power of the stereographic projection, even when the target distribution is neither centered nor homogeneous. Unlike Hamiltonian Monte Carlo (HMC) and other off-the-shelf MCMC samplers, the resulting algorithms are robust to starting far from the mean in heavy-tailed, high-dimensional settings. To prove convergence properties, we develop a novel framework for the analysis of adaptive MCMC algorithms over collections of simultaneously uniformly ergodic Markov operators, which is applicable to continuous-time processes, such as SBPS. This framework allows us to obtain \mathcal{L}^2 and almost sure convergence results, and a CLT for our adaptive stereographic algorithms.
+
+### [Optimal Regret of Bandits under Differential Privacy](https://arxiv.org/abs/2505.05613)
+
+**Achraf Azize** *CREST, ENSAE*
+
+As sequential learning algorithms are increasingly applied to real life, ensuring data privacy while maintaining their utilities emerges as a timely question. In this context, regret minimisation in stochastic bandits under \epsilon-global Differential Privacy (DP) has been widely studied. The present literature poses a significant gap between the best-known regret lower and upper bounds in this setting, though they "match in order''. Thus, we revisit the regret lower and upper bounds of \epsilon-global DP bandits and improve both. First, we prove a tighter regret lower bound involving a novel information-theoretic quantity characterising the hardness of \epsilon-global DP in stochastic bandits. This quantity smoothly interpolates between Kullback–Leibler divergence and Total Variation distance, depending on the privacy budget \epsilon. Then, we choose two asymptotically optimal bandit algorithms, i.e., KL-UCB and IMED, and propose their DP versions using a unified blueprint, i.e., (a) running in arm-dependent phases, and (b) adding Laplace noise to achieve privacy. For Bernoulli bandits, we analyse the regrets of these algorithms and show that their regrets asymptotically match our lower bound up to a constant arbitrarily close to 1. At the core of our algorithms lies a new concentration inequality for sums of Bernoulli variables under the Laplace mechanism, which is a new DP version of the Chernoff bound.

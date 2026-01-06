@@ -1,0 +1,8 @@
+---
+  title: "Seminars 2026"
+  listing:
+    contents:
+      - "2026/*.qmd"
+    sort:
+      - "date"
+---

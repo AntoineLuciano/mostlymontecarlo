@@ -15,6 +15,10 @@ website:
     style: "docked"
     search: true
     contents:
+      - section: "2026"
+        href: sem/summary_2026.qmd
+        contents:
+          - sem/2026/s2026_01.qmd
       - section: "2025"
         href: sem/summary_2025.qmd
         contents:

@@ -14,21 +14,275 @@
     "text": "Join the mailing list\n\n&lt;p&gt;Loading…&lt;/p&gt;"
   },
   {
-    "objectID": "sem/s202X_XX.html",
-    "href": "sem/s202X_XX.html",
-    "title": "MONTH",
+    "objectID": "sem/2026/s2026_01.html",
+    "href": "sem/2026/s2026_01.html",
+    "title": "January",
     "section": "",
-    "text": "Room: Salle XX, PariSanté Campus\n\n\nTitle\nSpeaker Affiliation\nAbstract\n\n\nTitle\nSpeaker Affiliation\nAbstract"
+    "text": "Salle 03, PariSanté Campus\n\n\n\n\n\n\n\nTipSeminar time\n\n\n\nThis seminar is scheduled for 3PM.\n\n\n\nAdaptive Stereographic MCMC\nCameron Bell CEREMADE, Université Paris Dauphine - PSL\nIn order to tackle the problem of sampling from heavy tailed, high dimensional distributions via Markov Chain Monte Carlo (MCMC) methods, Yang, Latuszyński, and Roberts (2022) introduces the stereographic projection as a tool to compactify ^d and transform the problem into sampling from a density on the unit sphere ^d. However, the improvement in algorithmic efficiency, as well as the computational cost of the implementation, are still significantly impacted by the parameters used in this transformation. To address this, we introduce adaptive versions three stereographic MCMC algorithms - the Stereographic Random Walk (SRW), the Stereographic Slice Sampler (SSS), and the Stereographic Bouncy Particle Sampler (SBPS) - which automatically update the parameters of the algorithms as the run progresses. The adaptive setup allows to better exploit the power of the stereographic projection, even when the target distribution is neither centered nor homogeneous. Unlike Hamiltonian Monte Carlo (HMC) and other off-the-shelf MCMC samplers, the resulting algorithms are robust to starting far from the mean in heavy-tailed, high-dimensional settings. To prove convergence properties, we develop a novel framework for the analysis of adaptive MCMC algorithms over collections of simultaneously uniformly ergodic Markov operators, which is applicable to continuous-time processes, such as SBPS. This framework allows us to obtain ^2 and almost sure convergence results, and a CLT for our adaptive stereographic algorithms.\n\n\nOptimal Regret of Bandits under Differential Privacy\nAchraf Azize CREST, ENSAE\nAs sequential learning algorithms are increasingly applied to real life, ensuring data privacy while maintaining their utilities emerges as a timely question. In this context, regret minimisation in stochastic bandits under -global Differential Privacy (DP) has been widely studied. The present literature poses a significant gap between the best-known regret lower and upper bounds in this setting, though they “match in order’’. Thus, we revisit the regret lower and upper bounds of -global DP bandits and improve both. First, we prove a tighter regret lower bound involving a novel information-theoretic quantity characterising the hardness of -global DP in stochastic bandits. This quantity smoothly interpolates between Kullback–Leibler divergence and Total Variation distance, depending on the privacy budget . Then, we choose two asymptotically optimal bandit algorithms, i.e., KL-UCB and IMED, and propose their DP versions using a unified blueprint, i.e., (a) running in arm-dependent phases, and (b) adding Laplace noise to achieve privacy. For Bernoulli bandits, we analyse the regrets of these algorithms and show that their regrets asymptotically match our lower bound up to a constant arbitrarily close to 1. At the core of our algorithms lies a new concentration inequality for sums of Bernoulli variables under the Laplace mechanism, which is a new DP version of the Chernoff bound.",
+    "crumbs": [
+      "Home",
+      "2026",
+      "January"
+    ]
   },
   {
-    "objectID": "sem/2023/s2023_12.html",
-    "href": "sem/2023/s2023_12.html",
-    "title": "December",
+    "objectID": "sem/summary_2023.html",
+    "href": "sem/summary_2023.html",
+    "title": "Seminars 2023",
     "section": "",
-    "text": "Salle 08, PariSanté Campus\n\n\nSVBMC: Fast post-processing Bayesian inference with noisy evaluations of the likelihood\nGrégoire Clarté University of Helsinki, University of Edinburgh\nIn many cases, the exact likelihood is unavailable, and can only be accessed through a noisy and expensive process – for example, in Plasma Physics. Furthermore, Bayesian inference often comes in at a second moment, for example after running an optimization algorithm to find a MAP estimate. To tackle both these issues, we introduce Sparse Variational Bayesian Monte Carlo (SVBMC), a method for fast “post-processes” Bayesian inference for models with black-box and noisy likelihoods. SVBMC reuses all existing target density evaluations – for example, from previous optimizations or partial Markov Chain Monte Carlo runs – to build a sparse Gaussian process (GP) surrogate model of the log posterior density. Uncertain regions of the surrogate are then refined via active learning as needed. Our work builds on the Variational Bayesian Monte Carlo (VBMC) framework for sample-efficient inference, with several novel contributions. First, we make VBMC scalable to a large number of pre-existing evaluations via sparse GP regression, deriving novel Bayesian quadrature formulae and acquisition functions for active learning with sparse GPs. Second, we introduce noise shaping, a general technique to induce the sparse GP approximation to focus on high posterior density regions. Third, we prove theoretical results in support of the SVBMC refinement procedure. We validate our method on a variety of challenging synthetic scenarios and real-world applications. We find that SVBMC consistently builds good posterior approximations by post-processing of existing model evaluations from different sources, often requiring only a small number of additional density evaluations.\n\n\nVariance reduction using control variates and importance sampling for applications in computational statistical physics\nUrbain Vaes INRIA, CERMICS\nThe scaling of the mobility coefficient associated with two-dimensional Langevin dynamics in a periodic potential as the friction vanishes is not well understood. Theoretical results are lacking, and numerical calculation of the mobility in the underdamped regime is challenging. In the first part of this talk, I will present a new variance reduction approach based on control variates for efficiently estimating the mobility of Langevin-type dynamics, together with numerical experiments illustrating the performance of the approach.\nIn the second part of this talk, we study an importance sampling approach for calculating averages with respect to multimodal probability distributions. Traditional Markov chain Monte Carlo methods to this end, which are based on time averages along a realization of a Markov process ergodic with respect to the target probability distribution, are usually plagued by a large variance due to the metastability of the process. The estimator we study is based on an ergodic average along a realization of an overdamped Langevin process for a modified potential. We obtain an explicit expression for the optimal biasing potential in dimension 1 and propose a general numerical approach for approximating the optimal potential in the multi-dimensional setting.",
+    "text": "October\n\n\n\n\n\n\n\n\nOct 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nNovember\n\n\n\n\n\n\n\n\nNov 17, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nDecember\n\n\n\n\n\n\n\n\nDec 15, 2023\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Home",
+      "2023"
+    ]
+  },
+  {
+    "objectID": "sem/2023/s2023_10.html",
+    "href": "sem/2023/s2023_10.html",
+    "title": "October",
+    "section": "",
+    "text": "Salle 07, PariSanté Campus\n\n\nPiecewise deterministic sampling with splitting schemes\nAndrea Bertazzi CMAP, École Polytechnique \nPiecewise deterministic Markov processes (PDMPs) received substantial interest in recent years as an alternative to classical Markov chain Monte Carloalgorithms. While theoretical properties of PDMPs have been studied extensively, their practical implementation remains limited to specific applications in which bounds on the gradient of the negative log-target can be derived. In order to address this problem, we propose to approximate PDMPs using splitting schemes, that means simulating the deterministic dynamics and the random jumps in two different stages. We show that symmetric splittings of PDMPs are of second order. Then we focus on the Zig-Zag sampler (ZZS) and show how to remove the bias of the splitting scheme with a skew reversible Metropolis filter. Finally, we illustrate with numerical simulations the advantages of our proposed scheme over competitors.\n\n\nBayesian score calibration for approximate models\nJoshua Bon Ceremade, Université Paris Dauphine-PSL\nScientists continue to develop increasingly complex mechanistic models to reflect their knowledge more realistically. Statistical inference using these models can be challenging since the corresponding likelihood function is often intractable and model simulation may be computationally burdensome.  Fortunately, in many of these situations, it is possible to adopt a surrogate model or approximate likelihood function.  It may be convenient to base Bayesian inference directly on the surrogate, but this can result in bias and poor uncertainty quantification.  In this paper we propose a new method for adjusting approximate posterior samples to reduce bias and produce more accurate uncertainty quantification.  We do this by optimizing a transform of the approximate posterior that maximizes a scoring rule.  Our approach requires only a (fixed) small number of complex model simulations and is numerically stable.  We demonstrate good performance of the new method on several examples of increasing complexity.",
     "crumbs": [
       "Home",
       "2023",
+      "October"
+    ]
+  },
+  {
+    "objectID": "sem/summary_2025.html",
+    "href": "sem/summary_2025.html",
+    "title": "Seminars 2025",
+    "section": "",
+    "text": "January\n\n\n\n\n\n\n\n\nJan 10, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary\n\n\n\n\n\n\n\n\nFeb 14, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nMarch\n\n\n\n\n\n\n\n\nMar 14, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nApril\n\n\n\n\n\n\n\n\nApr 11, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nMay\n\n\n\n\n\n\n\n\nMay 16, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nOctober\n\n\n\n\n\n\n\n\nOct 17, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nNovember\n\n\n\n\n\n\n\n\nNov 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nDecember\n\n\n\n\n\n\n\n\nDec 12, 2025\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Home",
+      "2025"
+    ]
+  },
+  {
+    "objectID": "sem/2024/s2024_10.html",
+    "href": "sem/2024/s2024_10.html",
+    "title": "October",
+    "section": "",
+    "text": "Auditorium, PariSanté Campus\n\n\nSkew-symmetric schemes for SDEs and where to find them\nGiorgos Vasdekis Newcastle University\nLocally balancing algorithms are a new class of MCMC algorithms, recently introduced in (Livingstone and Zanella, 2022). One of these algorithms, the Barker algorithm, has been shown to be robust to heteroskedasticity of the posterior target and the step size of the algorithm. At the same time, the algorithm seems to preserve high dimensional properties of state-of-the-art MCMC, making it an interesting alternative to the existing literature. It turns out that in order to sample from the Barker algorithm, one can use ideas of sampling from skew-symmetric distributions. We will transfer these ideas in the context of simulating from diffusion processes and we will suggest a new class of unadjusted MCMC algorithms, which are robust with respect to the step size.\nThis is joint work with S. Livingstone, N. Nusken and R. Zhang.\n\n\nScalable sampling using annealing and sequential Monte Carlo samplers\nSaifuddin Syed Oxford University\nGenerating samples from complex probability distributions is a fundamental challenge in statistical modelling and Bayesian statistics. In practice, this is generally impossible, and we must introduce a simpler reference distribution, such as a Gaussian, and manipulate its density and samples to approximate the target. In general, direct inference is reliable when the reference is close to the target and fragile when it is not. Annealing is a popular technique motivated by this principle and introduces a sequence of distributions that interpolates between the reference and target, ensuring the neighbouring distributions are close enough. An annealing algorithm specifies how to traverse this bridge of distributions to incrementally transform samples from the reference into samples approximating the target.\nIn this talk, we will analyse a popular annealing algorithm, Sequential Monte Carlo Samplers (SMCS), which sequentially propagates samples from the reference to the target using importance sampling. We will see how SMCS’s performance scales with increasing runtime, parallelism, memory, and the difficulty of the inference problem. We will then use these theoretical insights to develop a black-box algorithm for efficiently tuning SMCS and related annealing algorithms.",
+    "crumbs": [
+      "Home",
+      "2024",
+      "October"
+    ]
+  },
+  {
+    "objectID": "sem/2024/s2024_04_sp.html",
+    "href": "sem/2024/s2024_04_sp.html",
+    "title": "April II",
+    "section": "",
+    "text": "Salle 08, PariSanté Campus\n\n\nMCMC when you do not want to evaluate the target distribution\nGuanyang Wang Rutgers University\nIn sampling tasks, it is common for target distributions to be known up to a normalizing constant. However, in many situations, evaluating even the unnormalized distribution can be costly or infeasible. This issue arises in scenarios such as sampling from the Bayesian posterior for large datasets and the ‘doubly intractable’ distributions. We provide a way to unify various MCMC algorithms, including several minibatch MCMC algorithms and the exchange algorithm. This framework not only simplifies the theoretical analysis of existing algorithms but also creates new algorithms. Similar frameworks exist in the literature, but they concentrate on different objectives.\n\n\n\n\n\n\nTipSpecial edition\n\n\n\nAll About That Bayes and Mostly Monte Carlo joint seminar!",
+    "crumbs": [
+      "Home",
+      "2024",
+      "April II"
+    ]
+  },
+  {
+    "objectID": "sem/2024/s2024_11.html",
+    "href": "sem/2024/s2024_11.html",
+    "title": "November",
+    "section": "",
+    "text": "Auditorium, PariSanté Campus\n\n\nSaddlepoint Monte Carlo and its application to the statistical analysis of vote carryover in French elections\nNicolas Chopin ENSAE-CREST, Institut Polytechnique de Paris\nAssuming X is a random vector and A a non-invertible matrix, one sometimes need to perform inference while only having access to samples of Y = AX. The corresponding likelihood is typically intractable. One may still be able to perform exact Bayesian inference using a pseudo-marginal sampler, but this requires an unbiased estimator of the intractable likelihood. We propose saddlepoint Monte Carlo, a method for obtaining an unbiased estimate of the density of Y with very low variance, for any model belonging to an exponential family. Our method relies on importance sampling of the characteristic function, with insights brought by the standard saddlepoint approximation scheme with exponential tilting. We show that saddlepoint Monte Carlo makes it possible to perform exact inference on particularly challenging problems and datasets. We focus on the ecological inference problem, where one observes only aggregates at a fine level. We present in particular a study of the carryover of votes between the two rounds of various French elections, using the finest available data (number of votes for each candidate in about 60,000 polling stations over most of the French territory). We show that existing, popular approximate methods for ecological inference can lead to substantial bias, which saddlepoint Monte Carlo is immune from. We also present original results for the 2024 legislative elections on political centre-to-left and left-to-centre conversion rates when the far-right is present in the second round. Finally, we discuss other exciting applications for saddlepoint Monte Carlo, such as dealing with aggregate data in privacy or inverse problems.\nJoint work with Robin Ryder (Imperial) and Théo Voldoire (Harvard University). Link: https://arxiv.org/abs/2410.18243\n\n\nExact and approximate filtering via discrete dual processes\nGuillaume Kon Kam King INRAE\nExact inference for hidden Markov models requires the evaluation of all distributions of interest – filtering, prediction, smoothing and likelihood – with a finite computational effort. We provide sufficient conditions for exact inference for a class of hidden Markov models on general state spaces given a set of discretely collected indirect observations linked non linearly to the signal, and a set of practical algorithms for inference. The conditions we obtain are concerned with the existence of a certain type of dual process, which is an auxiliary process embedded in the time reversal of the signal, that in turn allows to represent the distributions and functions of interest as finite mixtures of elementary densities or products thereof. We then turn to a more general class of dual processes which do not provide computable expressions for the filtering distributions but countable mixtures indexed by the dual process state space. We investigate the performance of our strategies on two hidden Markov models driven by Cox–Ingersoll–Ross and Wright–Fisher diffusions.",
+    "crumbs": [
+      "Home",
+      "2024",
+      "November"
+    ]
+  },
+  {
+    "objectID": "sem/2024/s2024_02.html",
+    "href": "sem/2024/s2024_02.html",
+    "title": "February",
+    "section": "",
+    "text": "Salle 07, PariSanté Campus\n\n\nSampling probability distributions on constrained spaces\nPierre Jacob ESSEC Business School\nI will describe the problem of designing MCMC samplers for probability distributions that are supported on submanifolds, and its relevance in statistics (hypothesis testing, Bayesian inference), and how one may implement couplings of such MCMC kernels. The question also arises when the target is supported in \\(R^d\\) and one wants to propose moves along the contour of the target density function, which could be well motivated, and has been suggested multiple times in the literature. Joint work with Elena Bortolato (Padova) and Robin Ryder (Paris-Dauphine).\n\n\nInsufficient Gibbs Sampling\nAntoine Luciano Ceremade, Université Paris Dauphine-PSL\nIn some applied scenarios, the availability of complete data is restricted, often due to privacy concerns, and only aggregated, robust and inefficient statistics derived from the data are accessible. These robust statistics are not sufficient, but they demonstrate reduced sensitivity to outliers and offer enhanced data protection due to their higher breakdown point. In this article, operating within a parametric framework, we propose a method to sample from the posterior distribution of parameters conditioned on different robust and inefficient statistics: specifically, the pairs (median, MAD) or (median, IQR), or one or more quantiles. Leveraging a Gibbs sampler and the simulation of latent augmented data, our approach facilitates simulation according to the posterior distribution of parameters belonging to specific families of distributions. We demonstrate its applicability on the Gaussian, Cauchy, and translated Weibull families.\n(Preprint: https://arxiv.org/abs/2307.14973)",
+    "crumbs": [
+      "Home",
+      "2024",
+      "February"
+    ]
+  },
+  {
+    "objectID": "sem/2024/s2024_09.html",
+    "href": "sem/2024/s2024_09.html",
+    "title": "September",
+    "section": "",
+    "text": "Salle 03, PariSanté Campus\n\n\nProximal Interacting Particle Langevin Algorithms\nFrancesca Crucinio King’s College London\nWe introduce a class of algorithms, termed Proximal Interacting Particle Langevin Algorithms (PIPLA), for inference and learning in latent variable models whose joint probability density is non-differentiable. Leveraging proximal Markov chain Monte Carlo (MCMC) techniques and the recently introduced interacting particle Langevin algorithm (IPLA), we propose several variants within the novel proximal IPLA family, tailored to the problem of estimating parameters in a non-differentiable statistical model. We prove nonasymptotic bounds for the parameter estimates produced by the different algorithms in the strongly log-concave setting and provide comprehensive numerical experiments on various models to demonstrate the effectiveness of the proposed methods. In particular, we demonstrate the utility of our family of algorithms on a toy hierarchical example where our assumptions can be checked, as well as for sparse Bayesian logistic regression, training of sparse Bayesian neural networks, and sparse matrix completion. Our theory and experiments together show that PIPLA family can be the de facto choice for parameter estimation problems in non-differentiable latent variable models.\n\n\nNumerical Methods for SDEs with Irregular Coefficients\nTim Johnston Ceremade, Université Paris Dauphine-PSL\nIn this talk we discuss numerical methods for SDEs with irregular coefficients. We survey a number of results in the numerical analysis literature that demonstrate that the accuracy of numerical methods does not necessarily degenerate with the regularity of the drift coefficient. Finally we discuss applications to stochastic algorithms.",
+    "crumbs": [
+      "Home",
+      "2024",
+      "September"
+    ]
+  },
+  {
+    "objectID": "sem/2025/s2025_11.html",
+    "href": "sem/2025/s2025_11.html",
+    "title": "November",
+    "section": "",
+    "text": "Salle 08, PariSanté Campus\n\n\n\n\n\n\n\nTipSeminar time\n\n\n\nThis seminar is scheduled on a Thursday at 3PM\n\n\n\nBilinear mixed models and variational inference\nOmiros Papaspiliopoulos Universita’ Bocconi\nThe talk relates to a book I am currently writing with a political scientist, Max Goplerud (Austin), and deals with variational inference and its applications to large scale inference for generalized bilinear mixed models. This model structure is pervasive throughout applied sciences and includes as special cases generalized linear mixed models, matrix factorization models and item response theory. I will provide a synthesis of our methodological, theoretical and software work in this framework and link to other works and results in the field.\n\n\nA coupling-based approach to f-divergences diagnostics for Markov chain Monte Carlo\nAdrien Corenflos University of Warwick\nJoint work with Hai-Dang Dau. Available on arXiv.\nA long-standing gap exists between the theoretical analysis of Markov chain Monte Carlo convergence, which is often based on statistical divergences, and the diagnostics used in practice. We introduce the first general convergence diagnostics for Markov chain Monte Carlo based on any f-divergence, allowing users to directly monitor, among others, the Kullback–Leibler and the Chi-squared divergences as well as the Hellinger and the total variation distances. Our first key contribution is a coupling-based `weight harmonization’ scheme that produces a direct, computable, and consistent weighting of interacting Markov chains with respect to their target distribution. The second key contribution is to show how such consistent weightings of empirical measures can be used to provide upper bounds to f-divergences in general. We prove that these bounds are guaranteed to tighten over time and converge to zero as the chains approach stationarity, providing a concrete diagnostic. Numerical experiments demonstrate that our method is a practical and competitive diagnostic tool.",
+    "crumbs": [
+      "Home",
+      "2025",
+      "November"
+    ]
+  },
+  {
+    "objectID": "sem/2025/s2025_04.html",
+    "href": "sem/2025/s2025_04.html",
+    "title": "April",
+    "section": "",
+    "text": "Salle 08, PariSanté Campus\n\n\n\n\n\n\n\nTipSeminar time\n\n\n\nThis seminar is scheduled for 3PM (not the usual 4PM)\n\n\n\nDynamical versus Bayesian Transitions in a Toy Model of Superposition\nSusan Wei Monash University\nDespite the extensive use of stochastic optimization methods in training neural networks, the reasons for their effectiveness remain elusive. In this talk, we propose modeling parameter inference in deep learning as a process of free energy minimization, which allows us to draw on a rich body of insights from statistical physics. Further leveraging singular learning theory reveals that the free energy landscapes of “singular” models—encompassing most practical neural network architectures—differ markedly from those of “regular” models, displaying a pronounced energy-entropy competition as the sample size increases. In theory, this heightened competition manifests as Bayesian transitions.\nWe investigate whether such transitions actually arise by examining the Toy Model of Superposition (TMS), a simplified neural network studied by Anthropic for mechanistic interpretability. Through both theoretical analysis and empirical evidence, we show that TMS indeed exhibits these predicted Bayesian transitions. In the latter part of the talk, we explore the suitability of free energy minimization as a model for parameter inference (via stochastic gradient descent) in the TMS. We show that the observed training-time energy-entropy dynamics—termed dynamical transitions—align with theoretical predictions, suggesting that free energy minimization may serve as a viable, minimal model for understanding the training process of neural networks.\n\n\nContrasting modes of cultural evolution: Kra-Dai languages and weaving technologies\nEmma Kopp Université Paris Dauphine, PSL\nComputational methods have been used to reconstruct the history of languages over several millennia, based on data from modern languages. Using stochastic models of evolution along a phylogenetic tree, these methods infer language relationships (the topology of the tree) along with the ages of ancestral languages, usually in the Bayesian setting. We investigate and compare the evolution of two aspects of culture, languages and weaving technologies, amongst the Kra-Dai (Tai-Kadai) peoples of southwest China and southeast Asia, using Bayesian Markov-Chain Monte Carlo methods to uncover phylogenies. The results show that languages and looms evolved in related but different ways, and bring some new insights into the diaspora of the Kra-Dai speakers across southeast Asia.",
+    "crumbs": [
+      "Home",
+      "2025",
+      "April"
+    ]
+  },
+  {
+    "objectID": "sem/2025/s2025_12.html",
+    "href": "sem/2025/s2025_12.html",
+    "title": "December",
+    "section": "",
+    "text": "Salle 03, PariSanté Campus\n\n\n\n\n\n\n\nTipSeminar time\n\n\n\nThis seminar is scheduled on a Friday at 3PM\n\n\n\nLeast squares variational inference\nYvann Le Fay CREST, ENSAE\nVariational inference seeks the best approximation of a target distribution within a chosen family, where “best” means minimizing Kullback-Leibler divergence. When the approximation family is exponential, the optimal approximation satisfies a fixed-point equation. We introduce LSVI (Least Squares Variational Inference), a gradient-free, Monte Carlo-based scheme for the fixed-point recursion, where each iteration boils down to performing ordinary least squares regression on tempered log-target evaluations under the variational approximation. We show that LSVI is equivalent to biased stochastic natural gradient descent and use this to derive convergence rates with respect to the numbers of samples and iterations. When the approximation family is Gaussian, LSVI involves inverting the Fisher information matrix, whose size grows quadratically with dimension d. We exploit the regression formulation to eliminate the need for this inversion, yielding O(d^3) complexity in the full-covariance case and O(d) in the mean-field case. Finally, we numerically demonstrate LSVI’s performance on various tasks, including logistic regression, discrete variable selection, and Bayesian synthetic likelihood, showing competitive results with state-of-the-art methods, even when gradients are unavailable.\n\n\nBeyond the Unified Skew-Normal: Extended Models for Bayesian Classification\nPaolo Onorati CEREMADE, Université Paris Dauphine - PSL\nBinary classification models typically lose the conjugacy and computational simplicity enjoyed by Gaussian models. While the Unified Skew-Normal (SUN) family has recently been shown to be conjugated under the probit model, two new developments are presented that extend this idea to a broader class of link functions, including both logit and probit. In the parametric setting, the Perturbed Unified Skew-Normal (pSUN) distribution is introduced; it is conjugate to any binary regression model whose link admits a scale-mixture representation of Gaussian random variables, enabling tractable posterior summaries, efficient sampling schemes, and strong performance in high-dimensional covariate settings. The discussion then moves to the nonparametric domain, where the Quasi SUN family and the associated stochastic process provide conjugacy for nonparametric logit and probit models while preserving key closure properties. A stochastic representation of this process yields practical computational improvements over existing Gaussian-based approximations. Together, these SUN-type extensions offer promising tools for Bayesian classification with accurate posterior inference.",
+    "crumbs": [
+      "Home",
+      "2025",
+      "December"
+    ]
+  },
+  {
+    "objectID": "sem/2025/s2025_02.html",
+    "href": "sem/2025/s2025_02.html",
+    "title": "February",
+    "section": "",
+    "text": "Salle 03, PariSanté Campus\n\n\n\n\n\n\n\nTipSeminar time\n\n\n\nThis seminar is scheduled for 3PM (not the usual 4PM)\n\n\n\nNecessary conditions for sampling by piecewise deterministic Markov processes\nManon Michel LMBP, Université Clermont-Auvergne\nIn Markov Chain Monte Carlo (MCMC) methods, it was long believed to be nearly impossible to break free in a general manner from the stringent sufficient conditions imposed by reversibility. However, Monte Carlo methods based on Piecewise Deterministic Markov Processes (PDMP) have now demonstrated significant acceleration in different systems compared to their reversible counterparts. PDMPs generate sequences of ballistic dynamics governed by Poisson jumps. Yet their efficient extension to arbitrary systems remains challenging. A key effort has been to disentangle the necessary conditions for correctness from the overly restrictive sufficient ones. In this talk, I will explore these distinctions and present irreducible forms of PDMPs for sampling. Furthermore, I will discuss how to introduce more general deterministic flows beyond simple translational ones, defining two fundamental classes: ideal and uniform-ideal flows, which further enhance sampling efficiency.\n\n\nNon-reversible lifts of reversible diffusions\nFrancis Lörler Institute for Applied Mathematics, University of Bonn\nWe propose a new concept of lifts of reversible diffusion processes and show that various non-reversible Markov processes arising in applications, including many piecewise-deterministic Markov processes introduced in the sampling literature, are lifts in this sense of simple reversible diffusions. We show that the relaxation time can at most be reduced by a square root through lifting, generalising a related result in discrete time. Finally, we demonstrate how the recently developed approach to quantitative hypocoercivity based on space-time Poincaré inequalities can be rephrased and simplified in the language of lifts and how it can be applied to find optimal lifts.",
+    "crumbs": [
+      "Home",
+      "2025",
+      "February"
+    ]
+  },
+  {
+    "objectID": "sem/2025/s2025_01.html",
+    "href": "sem/2025/s2025_01.html",
+    "title": "January",
+    "section": "",
+    "text": "Salle 03, PariSanté Campus\n\n\n\n\n\n\n\nTipSeminar time\n\n\n\nThis seminar is scheduled for 3PM (not the usual 4PM)\n\n\n\nBi-Level Optimization Meets Diffusions for tractable Bayesian Experimental Design\nJacopo Iollo INRIA Rhone-Alpes\nBayesian Optimal Experimental Design (BOED) is a powerful tool to reduce the cost of running a sequence of experiments.When based on the Expected Information Gain (EIG), design optimization corresponds to the maximization of some intractable expected contrast between prior and posterior distributions. Scaling this maximization to high dimensional and complex settings has been an issue due to BOED inherent computational complexity. In this work, we introduce a pooled posterior distribution with cost-effective sampling properties and provide a tractable access to the EIG contrast maximization via a new EIG gradient expression. Diffusion-based samplers are used to compute the dynamics of the pooled posterior and ideas from bi-level optimization are leveraged to derive an efficient joint sampling-optimization loop. The resulting efficiency gain allows to extend BOED to the well-tested generative capabilities of diffusion models. By incorporating generative models into the BOED framework, we expand its scope and its use in scenarios that were previously impractical. Numerical experiments and comparison with state-of-the-art methods show the potential of the approach.\n\n\nPiecewise deterministic generative models\nAndrea Bertazzi CMAP, École Polytechnique\nIn this talk we introduce a novel class of generative models based on piecewise deterministic Markov processes (PDMPs). Similarly to diffusions, these Markov processes admit time reversals that turn out to be PDM Ps as well. We apply this observation to three PDM Ps considered in the literature: the Zig-Zag process, Bouncy Particle Sampler, and Randomised Hamiltonian Monte Carlo. For these three particular instances, we show that the jump rates and kernels of the corresponding time reversals admit explicit expressions depending on some conditional densities of the PDMP under consideration before and after a jump. Based on these results, we propose efficient training procedures to learn these characteristics and consider methods to approximately simulate the reverse process. Finally, we provide bounds in the total variation distance between the data distribution and the resulting distribution of our model in the case where the base distribution is the standard d-dimensional Gaussian distribution. We conclude the talk with promising numerical simulations on toy datasets.",
+    "crumbs": [
+      "Home",
+      "2025",
+      "January"
+    ]
+  },
+  {
+    "objectID": "sem/2025/s2025_03.html",
+    "href": "sem/2025/s2025_03.html",
+    "title": "March",
+    "section": "",
+    "text": "Salle 03, PariSanté Campus\n\n\n\n\n\n\n\nTipSeminar time\n\n\n\nThis seminar is scheduled for 3PM (not the usual 4PM)\n\n\n\nConjugate gradient methods for high-dimensional GLMMs\nAndrea Pandolfi Università Bocconi\nGeneralized linear mixed models (GLMMs) are a widely used tool in statistical analysis. The main bottleneck of many computational approaches lies in the inversion of the high dimensional precision matrices associated with the random effects. Such matrices are typically sparse; however, the sparsity pattern resembles a multi partite random graph, which does not lend itself well to default sparse linear algebra techniques. Notably, we show that, for typical GLMMs, the Cholesky factor is dense even when the original precision is sparse. We thus turn to approximate iterative techniques, in particular to the conjugate gradient (CG) method. We combine a detailed analysis of the spectrum of said precision matrices with results from random graph theory to show that CG-based methods applied to high-dimensional GLMMs typically achieve a fixed approximation error with a total cost that scales linearly with the number of parameters and observations. Numerical illustrations with both real and simulated data confirm the theoretical findings, while at the same time illustrating situations, such as nested structures, where CG-based methods struggle.\n\n\nImportance sampling-based gradient method for dimension reduction in Poisson log-normal model\nJulien Stoehr Université Paris Dauphine, PSL\nHigh-dimensional count data poses significant challenges for statistical analysis, necessitating effective methods that also preserve explainability. We focus on a low rank constrained variant of the Poisson log-normal model, which relates the observed data to a latent low-dimensional multivariate Gaussian variable via a Poisson distribution. Variational inference methods have become a golden standard solution to infer such a model. While computationally efficient, they usually lack theoretical statistical properties with respect to the model. To address this issue we propose a projected stochastic gradient scheme that directly maximizes the log-likelihood. We prove the convergence of the proposed method when using importance sampling for estimating the gradient. Specifically, we obtain a rate of convergence of \\(O(T^{-1/2} + N^{-1})\\) with \\(T\\) the number of iterations and \\(N\\) the number of Monte Carlo draws. The latter follows from a novel descent lemma for non convex \\(L\\)-smooth objective functions, and random biased gradient estimate. We also demonstrate numerically the efficiency of our solution compared to its variational competitor. Our method not only scales with respect to the number of observed samples but also provides access to the desirable properties of the maximum likelihood estimator.",
+    "crumbs": [
+      "Home",
+      "2025",
+      "March"
+    ]
+  },
+  {
+    "objectID": "sem/2025/s2025_10.html",
+    "href": "sem/2025/s2025_10.html",
+    "title": "October",
+    "section": "",
+    "text": "Salle 07, PariSanté Campus\n\n\n\n\n\n\n\nTipSeminar time\n\n\n\nThis seminar is scheduled for 3PM\n\n\n\nDifferential Privacy of Markov Chains\nTimothy JOHNSTON CEREMADE, Université Paris Dauphine–PSL\nJoint work with Andrea Bertazzi, Alain Durmus and Gareth Roberts. Available on arXiv.\nIn this talk we shall discuss differential privacy, a framework for quantifying the extent to which a random output depends on the information used to produce it. After introducing several related definition of differential privacy, we shall discuss techniques used to show the differential privacy of both trajectories and single draws from Markov Chains. In doing so we shall touch on a perturbation technique which allows for Wasserstein type bounds to be converted into stronger distances like the KL and Renyi divergence.\n\n\nPermutations accelerate Approximate Bayesian Computation\nAntoine LUCIANO CEREMADE, Université Paris Dauphine–PSL\nJoint work with Charly Andral, Christian P. Robert and Robin J. Ryder. Available on arXiv.\nApproximate Bayesian Computation (ABC) methods have become essential tools for performing inference when likelihood functions are intractable or computationally prohibitive. However, their scalability remains a major challenge in hierarchical or high-dimensional models. In this paper, we introduce permABC, a new ABC framework designed for settings with both global and local parameters, where observations are grouped into exchangeable compartments. Building upon the Sequential Monte Carlo ABC (ABC-SMC) framework, permABC exploits the exchangeability of compartments through permutation-based matching, significantly improving computational efficiency. We then develop two further, complementary sequential strategies: Over Sampling, which facilitates early-stage acceptance by temporarily increasing the number of simulated compartments, and Under Matching, which relaxes the acceptance condition by matching only subsets of the data. These techniques allow for robust and scalable inference even in high-dimensional regimes. Through synthetic and real-world experiments – including a hierarchical Susceptible-Infectious-Recover model of the early COVID-19 epidemic across 94 French departments – we demonstrate the practical gains in accuracy and efficiency achieved by our approach.",
+    "crumbs": [
+      "Home",
+      "2025",
+      "October"
+    ]
+  },
+  {
+    "objectID": "sem/2025/s2025_05.html",
+    "href": "sem/2025/s2025_05.html",
+    "title": "May",
+    "section": "",
+    "text": "Salle 08, PariSanté Campus\n\n\n\n\n\n\n\nTipSeminar time\n\n\n\nThis seminar is scheduled for 3PM (not the usual 4PM)\n\n\n\nRejection sampling with quantum tricks: sampling determinantal point processes on a quantum computer\nRémi Bardenet CNRS and CRIStAL, Université de Lille\nJoint work with Michaël Fanuel and Alexandre Feller.\nBe it feature selection in regression or minibatch sampling in stochastic gradient descent, many data science applications can be formulated as selecting a small representative subset of a larger ground set of N items. Determinantal point processes (DPPs) are probability distributions originating in quantum optics, which allow selecting such representative subsets at a reasonable computational cost, and sometimes yield better-than-iid statistical guarantees. I will show that, given access to a quantum computer with as many qubits as the cardinality N of the ground set (an unrealistic assumption in 2025), one can sample a large class of determinantal point processes faster than on a classical computer. For Monte Carlo aficionados, I will show neat peculiarities of the quantum framework that allow us to replace a costly matrix decomposition by a cheap rejection sampling routine. The talk is based on Reference [2]. I will try to stick to a level of exposition that does not require any prior affinity with quantum computing, but if you have time prior to the talk, you can read Section 3 of [1] for a 3-page introduction to some of the notions I’ll use.\n[1] https://arxiv.org/abs/2305.15851\n[2] https://arxiv.org/abs/2503.05906\n\n\nOn theoretical guarantees for nonconvex sampling\nMartin Chak Università Bocconi\nI will review recent results on guarantees for sampling algorithms targeting multimodal densities on \\(\\mathbb{R}^d\\). For the class of target logdensities with bounded Hessians and strong concavity outside a ball of radius \\(R\\), I present the result that there are constants \\(C&gt;c&gt;0\\) such that if \\(R&lt;c\\sqrt{d}\\), then complete polynomial complexity is possible with an explicit algorithm, whilst if \\(R&gt;C\\sqrt{d}\\), then exponential-in-\\(d\\) complexity is necessary for any algorithm. Moreover, for the class of logdensities that have bounded Hessians and satisfy a distant dissipativity condition, I present unimodal counterexamples from the strongest parameter regimes that require exponential-in-\\(d\\) complexity.",
+    "crumbs": [
+      "Home",
+      "2025",
+      "May"
+    ]
+  },
+  {
+    "objectID": "sem/summary_2024.html",
+    "href": "sem/summary_2024.html",
+    "title": "Seminars 2024",
+    "section": "",
+    "text": "January\n\n\n\n\n\n\n\n\nJan 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary\n\n\n\n\n\n\n\n\nFeb 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nMarch\n\n\n\n\n\n\n\n\nMar 8, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nApril I\n\n\n\n\n\n\n\n\nApr 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nApril II\n\n\n\n\n\n\n\n\nApr 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nMay\n\n\n\n\n\n\n\n\nMay 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSeptember\n\n\n\n\n\n\n\n\nSep 13, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nOctober\n\n\n\n\n\n\n\n\nOct 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nNovember\n\n\n\n\n\n\n\n\nNov 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nDecember\n\n\n\n\n\n\n\n\nDec 13, 2024\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Home",
+      "2024"
+    ]
+  },
+  {
+    "objectID": "sem/2024/s2024_03.html",
+    "href": "sem/2024/s2024_03.html",
+    "title": "March",
+    "section": "",
+    "text": "Salle 03, PariSanté Campus\n\n\nTransporting measures for sampling: parametric and non-parametric approaches inspired by generative modelling\nMarylou Gabrié CMAP, École Polytechnique\nGenerative models and statistical mechanics have a long history of cross-fertilization. Recently, it has been shown that generative models, such as normalizing flows, can assist sampling of metastable systems. This remarkable ability comes from the high-expressivity of generative models that can approach complex distributions while remaining tractable. However, the training accuracy of generative models deteriorates when the dimension and complexity of the target measure are pushed. Inspired by recent progress in generative modelling relying on stochastic processes, non-parametric sampling algorithms can also be derived to sample from metastable systems. Are non-parametric methods more scalable?\n\n\nImplicit Diffusion: Efficient Optimization through Stochastic Sampling\nPierre Marion École Polytechnique Fédérale de Lausanne\nWe present a new algorithm to optimize distributions defined implicitly by parameterized stochastic diffusions. Doing so allows us to modify the outcome distribution of sampling processes by optimizing over their parameters. We introduce a general framework for first-order optimization of these processes, that performs jointly, in a single loop, optimization and sampling steps. This approach is inspired by recent advances in bilevel optimization and automatic implicit differentiation, leveraging the point of view of sampling as optimization over the space of probability distributions. We provide theoretical guarantees on the performance of our method, as well as experimental results demonstrating its effectiveness in real-world settings.",
+    "crumbs": [
+      "Home",
+      "2024",
+      "March"
+    ]
+  },
+  {
+    "objectID": "sem/2024/s2024_01.html",
+    "href": "sem/2024/s2024_01.html",
+    "title": "January",
+    "section": "",
+    "text": "Salle 07, PariSanté Campus\n\n\nCombining Normalizing Flows and Quasi-Monte Carlo\nCharly Andral Ceremade, Université Paris Dauphine-PSL\nRecent advances in machine learning have led to the development of new methods for enhancing Monte Carlo methods such as Markov chain Monte Carlo (MCMC) and importance sampling (IS). One such method is normalizing flows, which use a neural network to approximate a distribution by evaluating it pointwise. Normalizing flows have been shown to improve the performance of MCMC and IS. On the other side, (randomized) quasi-Monte Carlo methods are used to perform numerical integration. They replace the random sampling of Monte Carlo by a sequence which cover the hypercube more uniformly, resulting in better convergence rates for the error that plain Monte Carlo. In this work, we combine these two methods by using quasi-Monte Carlo to sample the initial distribution that is transported by the flow. We demonstrate through numerical experiments that this combination can lead to an estimator with significantly lower variance than if the flow was sampled with a classic Monte Carlo.\n\n\nOptimizing the diffusion of overdamped Langevin dynamics\nRégis Santet, CERMICS, École des Ponts & MATHERIALS, INRIA Paris\nOverdamped Langevin dynamics are reversible stochastic differential equations which are commonly used to sample probability measures in high dimensional spaces, such as the ones appearing in computational statistical physics and Bayesian inference. By varying the diffusion coefficient, there are in fact infinitely many reversible overdamped Langevin dynamics which preserve the target probability measure at hand. This suggests to optimize the diffusion coefficient in order to increase the convergence rate of the dynamics, as measured by the spectral gap of the generator associated with the stochastic differential equation. We analytically study this problem here, obtaining in particular necessary conditions on the optimal diffusion coefficient. We also derive an explicit expression of the optimal diffusion in some homogenized limit. Numerical results, both relying on discretizations of the spectral gap problem and Monte Carlo simulations of the stochastic dynamics, demonstrate the increased quality of the sampling arising from an appropriate choice of the diffusion coefficient.\nThis is joint work with Tony Lelièvre, Grigorios Pavliotis, Geneviève Robin and Gabriel Stoltz.",
+    "crumbs": [
+      "Home",
+      "2024",
+      "January"
+    ]
+  },
+  {
+    "objectID": "sem/2024/s2024_05.html",
+    "href": "sem/2024/s2024_05.html",
+    "title": "May",
+    "section": "",
+    "text": "Salle 06, PariSanté Campus\n\n\nImportance sampling with free energies and autoencoders for multimodal probability distributions\nGabriel Stoltz CERMICS, Ecole des Ponts and Matherials team-project, Inria Paris\nSampling high dimensional probability measures is often made difficult by the multimodality of the target probability distribution. The MCMC scheme under consideration needs to pass through low probability regions to switch from one mode to another, which is a rare event. An approach to making these transitions less rare is to identify a few selected (nonlinear) degrees of freedom of the system, which are at the origin of the slow mixing behavior, compute the associated free energies, and perform some importance sampling based on the latter function. This was considered in [1], based on manually selected variables (mostly linear function of the coordinates). Various tools have now recently been developed in molecular simulation to automatically find the most relevant nonlinear degrees of freedeom hindering sampling, based on machine learning tools such as autoencoders [2]. I will present a methodology to leverage these models for better sampling, and will also provide a mathematical analysis of the approach, relating it to principal manifolds and providing an interpretation based on conditional expectations [3]. \n\n[1] N. Chopin, T. Lelièvre and G. Stoltz, Free energy methods for efficient exploration of mixture posterior densities, Stat. Comput. 22(4), 897-916 (2012) \n[2] Z. Belkacemi, P. Gkeka, T. Lelièvre, G. Stoltz, Chasing collective variables using autoencoders and biased trajectories, J. Chem. Theory Comput. 18(1), 59-78 (2022)\n[3] T. Lelièvre, T. Pigeon, G. Stoltz and W. Zhang, Analyzing multimodal probability measures with autoencoders, J. Phys. Chem. B 128(11), 2607-2631 (2024)\n\n\nAdaptive MCMC sampling using a Metropolized PDMP sampler combined with a No-U-Turn criterion\nAugustin Chevallier Université de Strasbourg\nAdaptivity in MCMC algorithms is hard to achieve. In Hamiltonian Monte Carlo, for example, it is possible to tune the path length using the No-U-Turn sampler, but the numerical step size cannot be adapted; it can only be tuned. We propose here a new class of algorithm based on Metropolizing a numerical approximation of a PDMP sampler. Like HMC, these samplers require two parameters: a numerical step size and a path length. Unlike HMC, both parameters can be adapted. This paves the way for more robust sampling algorithms, especially for difficult target densities.",
+    "crumbs": [
+      "Home",
+      "2024",
+      "May"
+    ]
+  },
+  {
+    "objectID": "sem/2024/s2024_04.html",
+    "href": "sem/2024/s2024_04.html",
+    "title": "April I",
+    "section": "",
+    "text": "Salle 06, PariSanté Campus\n\n\nAlpha-divergence Variational Inference Meets Importance Weighted Auto-Encoders: Methodology and Asymptotics\nKamélia Daudel ESSEC Business School\nVariational Inference methods are optimization-based methods that have generated a lot of attention in Bayesian Statistics due to their applicability to high-dimensional machine learning problems. In particular, several algorithms involving the Variational Rényi (VR) bound have been proposed to optimize an alpha-divergence between a target posterior distribution and a variational distribution. Despite promising empirical results, those algorithms resort to biased stochastic gradient descent procedures and thus lack theoretical guarantees. In this paper, we formalize and study the VR-IWAE bound, a generalization of the Importance Weighted Auto-Encoder (IWAE) bound. We show that the VR-IWAE bound enjoys several desirable properties and notably leads to the same stochastic gradient descent procedure as the VR bound in the reparameterized case, but this time by relying on unbiased gradient estimators. We then provide two complementary theoretical analyses of the VR-IWAE bound and thus of the standard IWAE bound. Those analyses shed light on the benefits or lack thereof of these bounds. Lastly, we illustrate our theoretical claims over toy and real-data examples.\nReference: K. Daudel, J. Benton, Y. Shi and A. Doucet (2023). Alpha-divergence Variational Inference Meets Importance Weighted Auto-Encoders: Methodology and Asymptotics. Journal of Machine Learning Research, 24(243):1−83.\n\n\nSampling from multimodal distributions with stochastic localization\nMaxence Noble CMAP, École Polytechnique\nBuilding upon score-based learning, new interest in stochastic localization techniques has recently emerged. In these models, one seeks to noise a sample from the data distribution through a stochastic process, called observation process, and progressively learns a denoiser associated to this dynamics. Apart from specific applications, the use of stochastic localization for the problem of sampling from an unnormalized target density has not been explored extensively. This work contributes to fill this gap. We consider a general stochastic localization framework and introduce an explicit class of observation processes, associated with flexible denoising schedules. We provide a complete methodology, Stochastic Localization via Iterative Posterior Sampling (SLIPS), to obtain approximate samples of these dynamics, and as a by-product, samples from the target distribution. Our scheme is based on a Markov chain Monte Carlo estimation of the denoiser and comes with detailed practical guidelines. We illustrate the benefits and applicability of SLIPS on the challenging setting of sampling from multimodal distributions.",
+    "crumbs": [
+      "Home",
+      "2024",
+      "April I"
+    ]
+  },
+  {
+    "objectID": "sem/2024/s2024_12.html",
+    "href": "sem/2024/s2024_12.html",
+    "title": "December",
+    "section": "",
+    "text": "Salle 03, PariSanté Campus\n\n\nLearned Reference-based Diffusion Sampler for multi-modal distributions\nLouis Grenioux CMAP, École polytechnique\nOver the past few years, several approaches utilizing score-based diffusion have been proposed to sample from probability distributions, that is without having access to exact samples and relying solely on evaluations of unnormalized densities. The resulting samplers approximate the time-reversal of a noising diffusion process, bridging the target distribution to an easy-to-sample base distribution. In practice, the performance of these methods heavily depends on key hyperparameters that require ground truth samples to be accurately tuned. Our work aims to highlight and address this fundamental issue, focusing in particular on multi-modal distributions, which pose significant challenges for existing sampling methods. Building on existing approaches, we introduce Learned Reference-based Diffusion Sampler (LRDS), a methodology specifically designed to leverage prior knowledge on the location of the target modes in order to bypass the obstacle of hyperparameter tuning. LRDS proceeds in two steps by (i) learning a reference diffusion model on samples located in high-density space regions and tailored for multimodality, and (ii) using this reference model to foster the training of a diffusion-based sampler.\n\n\nGraph-informed importance sampling for piecewise deterministic Markov processes. Application in reliability assessment.\nGuillaume Chennetier CERMICS, École nationale des ponts et chaussées\nPiecewise Deterministic Markov Processes (PDMPs) describe deterministic dynamical systems with parameters subject to random jumps, making them versatile tools for modeling complex phenomena. However, generating their trajectories can be computationally expensive. For a large class of inference problems, an optimal sampling strategy exists and relies on a generalized version of the “committor function” of the process. We propose a novel adaptive importance sampling method to efficiently generate rare trajectories of PDMPs. The approach involves a two-phase process. In a first offline phase, the PDMP is approximated by a simpler process on a graph, enabling explicit computation of key quantities used to build a low-cost approximation of the committor function. In a second online phase, PDMP trajectories are generated using a distribution informed by this approximation and iteratively refined via cross-entropy minimization. We provide asymptotic guarantees and demonstrate the method’s effectiveness by estimating the failure probability of a complex industrial system.",
+    "crumbs": [
+      "Home",
+      "2024",
       "December"
     ]
   },
@@ -45,265 +299,23 @@
     ]
   },
   {
-    "objectID": "sem/2024/s2024_12.html",
-    "href": "sem/2024/s2024_12.html",
+    "objectID": "sem/2023/s2023_12.html",
+    "href": "sem/2023/s2023_12.html",
     "title": "December",
     "section": "",
-    "text": "Salle 03, PariSanté Campus\n\n\nLearned Reference-based Diffusion Sampler for multi-modal distributions\nLouis Grenioux CMAP, École polytechnique\nOver the past few years, several approaches utilizing score-based diffusion have been proposed to sample from probability distributions, that is without having access to exact samples and relying solely on evaluations of unnormalized densities. The resulting samplers approximate the time-reversal of a noising diffusion process, bridging the target distribution to an easy-to-sample base distribution. In practice, the performance of these methods heavily depends on key hyperparameters that require ground truth samples to be accurately tuned. Our work aims to highlight and address this fundamental issue, focusing in particular on multi-modal distributions, which pose significant challenges for existing sampling methods. Building on existing approaches, we introduce Learned Reference-based Diffusion Sampler (LRDS), a methodology specifically designed to leverage prior knowledge on the location of the target modes in order to bypass the obstacle of hyperparameter tuning. LRDS proceeds in two steps by (i) learning a reference diffusion model on samples located in high-density space regions and tailored for multimodality, and (ii) using this reference model to foster the training of a diffusion-based sampler.\n\n\nGraph-informed importance sampling for piecewise deterministic Markov processes. Application in reliability assessment.\nGuillaume Chennetier CERMICS, École nationale des ponts et chaussées\nPiecewise Deterministic Markov Processes (PDMPs) describe deterministic dynamical systems with parameters subject to random jumps, making them versatile tools for modeling complex phenomena. However, generating their trajectories can be computationally expensive. For a large class of inference problems, an optimal sampling strategy exists and relies on a generalized version of the “committor function” of the process. We propose a novel adaptive importance sampling method to efficiently generate rare trajectories of PDMPs. The approach involves a two-phase process. In a first offline phase, the PDMP is approximated by a simpler process on a graph, enabling explicit computation of key quantities used to build a low-cost approximation of the committor function. In a second online phase, PDMP trajectories are generated using a distribution informed by this approximation and iteratively refined via cross-entropy minimization. We provide asymptotic guarantees and demonstrate the method’s effectiveness by estimating the failure probability of a complex industrial system.",
-    "crumbs": [
-      "Home",
-      "2024",
-      "December"
-    ]
-  },
-  {
-    "objectID": "sem/2024/s2024_04.html",
-    "href": "sem/2024/s2024_04.html",
-    "title": "April I",
-    "section": "",
-    "text": "Salle 06, PariSanté Campus\n\n\nAlpha-divergence Variational Inference Meets Importance Weighted Auto-Encoders: Methodology and Asymptotics\nKamélia Daudel ESSEC Business School\nVariational Inference methods are optimization-based methods that have generated a lot of attention in Bayesian Statistics due to their applicability to high-dimensional machine learning problems. In particular, several algorithms involving the Variational Rényi (VR) bound have been proposed to optimize an alpha-divergence between a target posterior distribution and a variational distribution. Despite promising empirical results, those algorithms resort to biased stochastic gradient descent procedures and thus lack theoretical guarantees. In this paper, we formalize and study the VR-IWAE bound, a generalization of the Importance Weighted Auto-Encoder (IWAE) bound. We show that the VR-IWAE bound enjoys several desirable properties and notably leads to the same stochastic gradient descent procedure as the VR bound in the reparameterized case, but this time by relying on unbiased gradient estimators. We then provide two complementary theoretical analyses of the VR-IWAE bound and thus of the standard IWAE bound. Those analyses shed light on the benefits or lack thereof of these bounds. Lastly, we illustrate our theoretical claims over toy and real-data examples.\nReference: K. Daudel, J. Benton, Y. Shi and A. Doucet (2023). Alpha-divergence Variational Inference Meets Importance Weighted Auto-Encoders: Methodology and Asymptotics. Journal of Machine Learning Research, 24(243):1−83.\n\n\nSampling from multimodal distributions with stochastic localization\nMaxence Noble CMAP, École Polytechnique\nBuilding upon score-based learning, new interest in stochastic localization techniques has recently emerged. In these models, one seeks to noise a sample from the data distribution through a stochastic process, called observation process, and progressively learns a denoiser associated to this dynamics. Apart from specific applications, the use of stochastic localization for the problem of sampling from an unnormalized target density has not been explored extensively. This work contributes to fill this gap. We consider a general stochastic localization framework and introduce an explicit class of observation processes, associated with flexible denoising schedules. We provide a complete methodology, Stochastic Localization via Iterative Posterior Sampling (SLIPS), to obtain approximate samples of these dynamics, and as a by-product, samples from the target distribution. Our scheme is based on a Markov chain Monte Carlo estimation of the denoiser and comes with detailed practical guidelines. We illustrate the benefits and applicability of SLIPS on the challenging setting of sampling from multimodal distributions.",
-    "crumbs": [
-      "Home",
-      "2024",
-      "April I"
-    ]
-  },
-  {
-    "objectID": "sem/2024/s2024_05.html",
-    "href": "sem/2024/s2024_05.html",
-    "title": "May",
-    "section": "",
-    "text": "Salle 06, PariSanté Campus\n\n\nImportance sampling with free energies and autoencoders for multimodal probability distributions\nGabriel Stoltz CERMICS, Ecole des Ponts and Matherials team-project, Inria Paris\nSampling high dimensional probability measures is often made difficult by the multimodality of the target probability distribution. The MCMC scheme under consideration needs to pass through low probability regions to switch from one mode to another, which is a rare event. An approach to making these transitions less rare is to identify a few selected (nonlinear) degrees of freedom of the system, which are at the origin of the slow mixing behavior, compute the associated free energies, and perform some importance sampling based on the latter function. This was considered in [1], based on manually selected variables (mostly linear function of the coordinates). Various tools have now recently been developed in molecular simulation to automatically find the most relevant nonlinear degrees of freedeom hindering sampling, based on machine learning tools such as autoencoders [2]. I will present a methodology to leverage these models for better sampling, and will also provide a mathematical analysis of the approach, relating it to principal manifolds and providing an interpretation based on conditional expectations [3]. \n\n[1] N. Chopin, T. Lelièvre and G. Stoltz, Free energy methods for efficient exploration of mixture posterior densities, Stat. Comput. 22(4), 897-916 (2012) \n[2] Z. Belkacemi, P. Gkeka, T. Lelièvre, G. Stoltz, Chasing collective variables using autoencoders and biased trajectories, J. Chem. Theory Comput. 18(1), 59-78 (2022)\n[3] T. Lelièvre, T. Pigeon, G. Stoltz and W. Zhang, Analyzing multimodal probability measures with autoencoders, J. Phys. Chem. B 128(11), 2607-2631 (2024)\n\n\nAdaptive MCMC sampling using a Metropolized PDMP sampler combined with a No-U-Turn criterion\nAugustin Chevallier Université de Strasbourg\nAdaptivity in MCMC algorithms is hard to achieve. In Hamiltonian Monte Carlo, for example, it is possible to tune the path length using the No-U-Turn sampler, but the numerical step size cannot be adapted; it can only be tuned. We propose here a new class of algorithm based on Metropolizing a numerical approximation of a PDMP sampler. Like HMC, these samplers require two parameters: a numerical step size and a path length. Unlike HMC, both parameters can be adapted. This paves the way for more robust sampling algorithms, especially for difficult target densities.",
-    "crumbs": [
-      "Home",
-      "2024",
-      "May"
-    ]
-  },
-  {
-    "objectID": "sem/2024/s2024_01.html",
-    "href": "sem/2024/s2024_01.html",
-    "title": "January",
-    "section": "",
-    "text": "Salle 07, PariSanté Campus\n\n\nCombining Normalizing Flows and Quasi-Monte Carlo\nCharly Andral Ceremade, Université Paris Dauphine-PSL\nRecent advances in machine learning have led to the development of new methods for enhancing Monte Carlo methods such as Markov chain Monte Carlo (MCMC) and importance sampling (IS). One such method is normalizing flows, which use a neural network to approximate a distribution by evaluating it pointwise. Normalizing flows have been shown to improve the performance of MCMC and IS. On the other side, (randomized) quasi-Monte Carlo methods are used to perform numerical integration. They replace the random sampling of Monte Carlo by a sequence which cover the hypercube more uniformly, resulting in better convergence rates for the error that plain Monte Carlo. In this work, we combine these two methods by using quasi-Monte Carlo to sample the initial distribution that is transported by the flow. We demonstrate through numerical experiments that this combination can lead to an estimator with significantly lower variance than if the flow was sampled with a classic Monte Carlo.\n\n\nOptimizing the diffusion of overdamped Langevin dynamics\nRégis Santet, CERMICS, École des Ponts & MATHERIALS, INRIA Paris\nOverdamped Langevin dynamics are reversible stochastic differential equations which are commonly used to sample probability measures in high dimensional spaces, such as the ones appearing in computational statistical physics and Bayesian inference. By varying the diffusion coefficient, there are in fact infinitely many reversible overdamped Langevin dynamics which preserve the target probability measure at hand. This suggests to optimize the diffusion coefficient in order to increase the convergence rate of the dynamics, as measured by the spectral gap of the generator associated with the stochastic differential equation. We analytically study this problem here, obtaining in particular necessary conditions on the optimal diffusion coefficient. We also derive an explicit expression of the optimal diffusion in some homogenized limit. Numerical results, both relying on discretizations of the spectral gap problem and Monte Carlo simulations of the stochastic dynamics, demonstrate the increased quality of the sampling arising from an appropriate choice of the diffusion coefficient.\nThis is joint work with Tony Lelièvre, Grigorios Pavliotis, Geneviève Robin and Gabriel Stoltz.",
-    "crumbs": [
-      "Home",
-      "2024",
-      "January"
-    ]
-  },
-  {
-    "objectID": "sem/2024/s2024_03.html",
-    "href": "sem/2024/s2024_03.html",
-    "title": "March",
-    "section": "",
-    "text": "Salle 03, PariSanté Campus\n\n\nTransporting measures for sampling: parametric and non-parametric approaches inspired by generative modelling\nMarylou Gabrié CMAP, École Polytechnique\nGenerative models and statistical mechanics have a long history of cross-fertilization. Recently, it has been shown that generative models, such as normalizing flows, can assist sampling of metastable systems. This remarkable ability comes from the high-expressivity of generative models that can approach complex distributions while remaining tractable. However, the training accuracy of generative models deteriorates when the dimension and complexity of the target measure are pushed. Inspired by recent progress in generative modelling relying on stochastic processes, non-parametric sampling algorithms can also be derived to sample from metastable systems. Are non-parametric methods more scalable?\n\n\nImplicit Diffusion: Efficient Optimization through Stochastic Sampling\nPierre Marion École Polytechnique Fédérale de Lausanne\nWe present a new algorithm to optimize distributions defined implicitly by parameterized stochastic diffusions. Doing so allows us to modify the outcome distribution of sampling processes by optimizing over their parameters. We introduce a general framework for first-order optimization of these processes, that performs jointly, in a single loop, optimization and sampling steps. This approach is inspired by recent advances in bilevel optimization and automatic implicit differentiation, leveraging the point of view of sampling as optimization over the space of probability distributions. We provide theoretical guarantees on the performance of our method, as well as experimental results demonstrating its effectiveness in real-world settings.",
-    "crumbs": [
-      "Home",
-      "2024",
-      "March"
-    ]
-  },
-  {
-    "objectID": "sem/summary_2024.html",
-    "href": "sem/summary_2024.html",
-    "title": "Seminars 2024",
-    "section": "",
-    "text": "January\n\n\n\n\n\n\n\n\nJan 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary\n\n\n\n\n\n\n\n\nFeb 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nMarch\n\n\n\n\n\n\n\n\nMar 8, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nApril I\n\n\n\n\n\n\n\n\nApr 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nApril II\n\n\n\n\n\n\n\n\nApr 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nMay\n\n\n\n\n\n\n\n\nMay 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSeptember\n\n\n\n\n\n\n\n\nSep 13, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nOctober\n\n\n\n\n\n\n\n\nOct 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nNovember\n\n\n\n\n\n\n\n\nNov 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nDecember\n\n\n\n\n\n\n\n\nDec 13, 2024\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Home",
-      "2024"
-    ]
-  },
-  {
-    "objectID": "sem/2025/s2025_05.html",
-    "href": "sem/2025/s2025_05.html",
-    "title": "May",
-    "section": "",
-    "text": "Salle 08, PariSanté Campus\n\n\n\n\n\n\n\nTipSeminar time\n\n\n\nThis seminar is scheduled for 3PM (not the usual 4PM)\n\n\n\nRejection sampling with quantum tricks: sampling determinantal point processes on a quantum computer\nRémi Bardenet CNRS and CRIStAL, Université de Lille\nJoint work with Michaël Fanuel and Alexandre Feller.\nBe it feature selection in regression or minibatch sampling in stochastic gradient descent, many data science applications can be formulated as selecting a small representative subset of a larger ground set of N items. Determinantal point processes (DPPs) are probability distributions originating in quantum optics, which allow selecting such representative subsets at a reasonable computational cost, and sometimes yield better-than-iid statistical guarantees. I will show that, given access to a quantum computer with as many qubits as the cardinality N of the ground set (an unrealistic assumption in 2025), one can sample a large class of determinantal point processes faster than on a classical computer. For Monte Carlo aficionados, I will show neat peculiarities of the quantum framework that allow us to replace a costly matrix decomposition by a cheap rejection sampling routine. The talk is based on Reference [2]. I will try to stick to a level of exposition that does not require any prior affinity with quantum computing, but if you have time prior to the talk, you can read Section 3 of [1] for a 3-page introduction to some of the notions I’ll use.\n[1] https://arxiv.org/abs/2305.15851\n[2] https://arxiv.org/abs/2503.05906\n\n\nOn theoretical guarantees for nonconvex sampling\nMartin Chak Università Bocconi\nI will review recent results on guarantees for sampling algorithms targeting multimodal densities on \\(\\mathbb{R}^d\\). For the class of target logdensities with bounded Hessians and strong concavity outside a ball of radius \\(R\\), I present the result that there are constants \\(C&gt;c&gt;0\\) such that if \\(R&lt;c\\sqrt{d}\\), then complete polynomial complexity is possible with an explicit algorithm, whilst if \\(R&gt;C\\sqrt{d}\\), then exponential-in-\\(d\\) complexity is necessary for any algorithm. Moreover, for the class of logdensities that have bounded Hessians and satisfy a distant dissipativity condition, I present unimodal counterexamples from the strongest parameter regimes that require exponential-in-\\(d\\) complexity.",
-    "crumbs": [
-      "Home",
-      "2025",
-      "May"
-    ]
-  },
-  {
-    "objectID": "sem/2025/s2025_10.html",
-    "href": "sem/2025/s2025_10.html",
-    "title": "October",
-    "section": "",
-    "text": "Salle 07, PariSanté Campus\n\n\n\n\n\n\n\nTipSeminar time\n\n\n\nThis seminar is scheduled for 3PM\n\n\n\nDifferential Privacy of Markov Chains\nTimothy JOHNSTON CEREMADE, Université Paris Dauphine–PSL\nJoint work with Andrea Bertazzi, Alain Durmus and Gareth Roberts. Available on arXiv.\nIn this talk we shall discuss differential privacy, a framework for quantifying the extent to which a random output depends on the information used to produce it. After introducing several related definition of differential privacy, we shall discuss techniques used to show the differential privacy of both trajectories and single draws from Markov Chains. In doing so we shall touch on a perturbation technique which allows for Wasserstein type bounds to be converted into stronger distances like the KL and Renyi divergence.\n\n\nPermutations accelerate Approximate Bayesian Computation\nAntoine LUCIANO CEREMADE, Université Paris Dauphine–PSL\nJoint work with Charly Andral, Christian P. Robert and Robin J. Ryder. Available on arXiv.\nApproximate Bayesian Computation (ABC) methods have become essential tools for performing inference when likelihood functions are intractable or computationally prohibitive. However, their scalability remains a major challenge in hierarchical or high-dimensional models. In this paper, we introduce permABC, a new ABC framework designed for settings with both global and local parameters, where observations are grouped into exchangeable compartments. Building upon the Sequential Monte Carlo ABC (ABC-SMC) framework, permABC exploits the exchangeability of compartments through permutation-based matching, significantly improving computational efficiency. We then develop two further, complementary sequential strategies: Over Sampling, which facilitates early-stage acceptance by temporarily increasing the number of simulated compartments, and Under Matching, which relaxes the acceptance condition by matching only subsets of the data. These techniques allow for robust and scalable inference even in high-dimensional regimes. Through synthetic and real-world experiments – including a hierarchical Susceptible-Infectious-Recover model of the early COVID-19 epidemic across 94 French departments – we demonstrate the practical gains in accuracy and efficiency achieved by our approach.",
-    "crumbs": [
-      "Home",
-      "2025",
-      "October"
-    ]
-  },
-  {
-    "objectID": "sem/2025/s2025_03.html",
-    "href": "sem/2025/s2025_03.html",
-    "title": "March",
-    "section": "",
-    "text": "Salle 03, PariSanté Campus\n\n\n\n\n\n\n\nTipSeminar time\n\n\n\nThis seminar is scheduled for 3PM (not the usual 4PM)\n\n\n\nConjugate gradient methods for high-dimensional GLMMs\nAndrea Pandolfi Università Bocconi\nGeneralized linear mixed models (GLMMs) are a widely used tool in statistical analysis. The main bottleneck of many computational approaches lies in the inversion of the high dimensional precision matrices associated with the random effects. Such matrices are typically sparse; however, the sparsity pattern resembles a multi partite random graph, which does not lend itself well to default sparse linear algebra techniques. Notably, we show that, for typical GLMMs, the Cholesky factor is dense even when the original precision is sparse. We thus turn to approximate iterative techniques, in particular to the conjugate gradient (CG) method. We combine a detailed analysis of the spectrum of said precision matrices with results from random graph theory to show that CG-based methods applied to high-dimensional GLMMs typically achieve a fixed approximation error with a total cost that scales linearly with the number of parameters and observations. Numerical illustrations with both real and simulated data confirm the theoretical findings, while at the same time illustrating situations, such as nested structures, where CG-based methods struggle.\n\n\nImportance sampling-based gradient method for dimension reduction in Poisson log-normal model\nJulien Stoehr Université Paris Dauphine, PSL\nHigh-dimensional count data poses significant challenges for statistical analysis, necessitating effective methods that also preserve explainability. We focus on a low rank constrained variant of the Poisson log-normal model, which relates the observed data to a latent low-dimensional multivariate Gaussian variable via a Poisson distribution. Variational inference methods have become a golden standard solution to infer such a model. While computationally efficient, they usually lack theoretical statistical properties with respect to the model. To address this issue we propose a projected stochastic gradient scheme that directly maximizes the log-likelihood. We prove the convergence of the proposed method when using importance sampling for estimating the gradient. Specifically, we obtain a rate of convergence of \\(O(T^{-1/2} + N^{-1})\\) with \\(T\\) the number of iterations and \\(N\\) the number of Monte Carlo draws. The latter follows from a novel descent lemma for non convex \\(L\\)-smooth objective functions, and random biased gradient estimate. We also demonstrate numerically the efficiency of our solution compared to its variational competitor. Our method not only scales with respect to the number of observed samples but also provides access to the desirable properties of the maximum likelihood estimator.",
-    "crumbs": [
-      "Home",
-      "2025",
-      "March"
-    ]
-  },
-  {
-    "objectID": "sem/2025/s2025_01.html",
-    "href": "sem/2025/s2025_01.html",
-    "title": "January",
-    "section": "",
-    "text": "Salle 03, PariSanté Campus\n\n\n\n\n\n\n\nTipSeminar time\n\n\n\nThis seminar is scheduled for 3PM (not the usual 4PM)\n\n\n\nBi-Level Optimization Meets Diffusions for tractable Bayesian Experimental Design\nJacopo Iollo INRIA Rhone-Alpes\nBayesian Optimal Experimental Design (BOED) is a powerful tool to reduce the cost of running a sequence of experiments.When based on the Expected Information Gain (EIG), design optimization corresponds to the maximization of some intractable expected contrast between prior and posterior distributions. Scaling this maximization to high dimensional and complex settings has been an issue due to BOED inherent computational complexity. In this work, we introduce a pooled posterior distribution with cost-effective sampling properties and provide a tractable access to the EIG contrast maximization via a new EIG gradient expression. Diffusion-based samplers are used to compute the dynamics of the pooled posterior and ideas from bi-level optimization are leveraged to derive an efficient joint sampling-optimization loop. The resulting efficiency gain allows to extend BOED to the well-tested generative capabilities of diffusion models. By incorporating generative models into the BOED framework, we expand its scope and its use in scenarios that were previously impractical. Numerical experiments and comparison with state-of-the-art methods show the potential of the approach.\n\n\nPiecewise deterministic generative models\nAndrea Bertazzi CMAP, École Polytechnique\nIn this talk we introduce a novel class of generative models based on piecewise deterministic Markov processes (PDMPs). Similarly to diffusions, these Markov processes admit time reversals that turn out to be PDM Ps as well. We apply this observation to three PDM Ps considered in the literature: the Zig-Zag process, Bouncy Particle Sampler, and Randomised Hamiltonian Monte Carlo. For these three particular instances, we show that the jump rates and kernels of the corresponding time reversals admit explicit expressions depending on some conditional densities of the PDMP under consideration before and after a jump. Based on these results, we propose efficient training procedures to learn these characteristics and consider methods to approximately simulate the reverse process. Finally, we provide bounds in the total variation distance between the data distribution and the resulting distribution of our model in the case where the base distribution is the standard d-dimensional Gaussian distribution. We conclude the talk with promising numerical simulations on toy datasets.",
-    "crumbs": [
-      "Home",
-      "2025",
-      "January"
-    ]
-  },
-  {
-    "objectID": "sem/2025/s2025_02.html",
-    "href": "sem/2025/s2025_02.html",
-    "title": "February",
-    "section": "",
-    "text": "Salle 03, PariSanté Campus\n\n\n\n\n\n\n\nTipSeminar time\n\n\n\nThis seminar is scheduled for 3PM (not the usual 4PM)\n\n\n\nNecessary conditions for sampling by piecewise deterministic Markov processes\nManon Michel LMBP, Université Clermont-Auvergne\nIn Markov Chain Monte Carlo (MCMC) methods, it was long believed to be nearly impossible to break free in a general manner from the stringent sufficient conditions imposed by reversibility. However, Monte Carlo methods based on Piecewise Deterministic Markov Processes (PDMP) have now demonstrated significant acceleration in different systems compared to their reversible counterparts. PDMPs generate sequences of ballistic dynamics governed by Poisson jumps. Yet their efficient extension to arbitrary systems remains challenging. A key effort has been to disentangle the necessary conditions for correctness from the overly restrictive sufficient ones. In this talk, I will explore these distinctions and present irreducible forms of PDMPs for sampling. Furthermore, I will discuss how to introduce more general deterministic flows beyond simple translational ones, defining two fundamental classes: ideal and uniform-ideal flows, which further enhance sampling efficiency.\n\n\nNon-reversible lifts of reversible diffusions\nFrancis Lörler Institute for Applied Mathematics, University of Bonn\nWe propose a new concept of lifts of reversible diffusion processes and show that various non-reversible Markov processes arising in applications, including many piecewise-deterministic Markov processes introduced in the sampling literature, are lifts in this sense of simple reversible diffusions. We show that the relaxation time can at most be reduced by a square root through lifting, generalising a related result in discrete time. Finally, we demonstrate how the recently developed approach to quantitative hypocoercivity based on space-time Poincaré inequalities can be rephrased and simplified in the language of lifts and how it can be applied to find optimal lifts.",
-    "crumbs": [
-      "Home",
-      "2025",
-      "February"
-    ]
-  },
-  {
-    "objectID": "sem/2025/s2025_12.html",
-    "href": "sem/2025/s2025_12.html",
-    "title": "December",
-    "section": "",
-    "text": "Salle 03, PariSanté Campus\n\n\n\n\n\n\n\nTipSeminar time\n\n\n\nThis seminar is scheduled on a Friday at 3PM\n\n\n\nLeast squares variational inference\nYvann Le Fay CREST, ENSAE\nVariational inference seeks the best approximation of a target distribution within a chosen family, where “best” means minimizing Kullback-Leibler divergence. When the approximation family is exponential, the optimal approximation satisfies a fixed-point equation. We introduce LSVI (Least Squares Variational Inference), a gradient-free, Monte Carlo-based scheme for the fixed-point recursion, where each iteration boils down to performing ordinary least squares regression on tempered log-target evaluations under the variational approximation. We show that LSVI is equivalent to biased stochastic natural gradient descent and use this to derive convergence rates with respect to the numbers of samples and iterations. When the approximation family is Gaussian, LSVI involves inverting the Fisher information matrix, whose size grows quadratically with dimension d. We exploit the regression formulation to eliminate the need for this inversion, yielding O(d^3) complexity in the full-covariance case and O(d) in the mean-field case. Finally, we numerically demonstrate LSVI’s performance on various tasks, including logistic regression, discrete variable selection, and Bayesian synthetic likelihood, showing competitive results with state-of-the-art methods, even when gradients are unavailable.\n\n\nBeyond the Unified Skew-Normal: Extended Models for Bayesian Classification\nPaolo Onorati CEREMADE, Université Paris Dauphine - PSL\nBinary classification models typically lose the conjugacy and computational simplicity enjoyed by Gaussian models. While the Unified Skew-Normal (SUN) family has recently been shown to be conjugated under the probit model, two new developments are presented that extend this idea to a broader class of link functions, including both logit and probit. In the parametric setting, the Perturbed Unified Skew-Normal (pSUN) distribution is introduced; it is conjugate to any binary regression model whose link admits a scale-mixture representation of Gaussian random variables, enabling tractable posterior summaries, efficient sampling schemes, and strong performance in high-dimensional covariate settings. The discussion then moves to the nonparametric domain, where the Quasi SUN family and the associated stochastic process provide conjugacy for nonparametric logit and probit models while preserving key closure properties. A stochastic representation of this process yields practical computational improvements over existing Gaussian-based approximations. Together, these SUN-type extensions offer promising tools for Bayesian classification with accurate posterior inference.",
-    "crumbs": [
-      "Home",
-      "2025",
-      "December"
-    ]
-  },
-  {
-    "objectID": "sem/2025/s2025_04.html",
-    "href": "sem/2025/s2025_04.html",
-    "title": "April",
-    "section": "",
-    "text": "Salle 08, PariSanté Campus\n\n\n\n\n\n\n\nTipSeminar time\n\n\n\nThis seminar is scheduled for 3PM (not the usual 4PM)\n\n\n\nDynamical versus Bayesian Transitions in a Toy Model of Superposition\nSusan Wei Monash University\nDespite the extensive use of stochastic optimization methods in training neural networks, the reasons for their effectiveness remain elusive. In this talk, we propose modeling parameter inference in deep learning as a process of free energy minimization, which allows us to draw on a rich body of insights from statistical physics. Further leveraging singular learning theory reveals that the free energy landscapes of “singular” models—encompassing most practical neural network architectures—differ markedly from those of “regular” models, displaying a pronounced energy-entropy competition as the sample size increases. In theory, this heightened competition manifests as Bayesian transitions.\nWe investigate whether such transitions actually arise by examining the Toy Model of Superposition (TMS), a simplified neural network studied by Anthropic for mechanistic interpretability. Through both theoretical analysis and empirical evidence, we show that TMS indeed exhibits these predicted Bayesian transitions. In the latter part of the talk, we explore the suitability of free energy minimization as a model for parameter inference (via stochastic gradient descent) in the TMS. We show that the observed training-time energy-entropy dynamics—termed dynamical transitions—align with theoretical predictions, suggesting that free energy minimization may serve as a viable, minimal model for understanding the training process of neural networks.\n\n\nContrasting modes of cultural evolution: Kra-Dai languages and weaving technologies\nEmma Kopp Université Paris Dauphine, PSL\nComputational methods have been used to reconstruct the history of languages over several millennia, based on data from modern languages. Using stochastic models of evolution along a phylogenetic tree, these methods infer language relationships (the topology of the tree) along with the ages of ancestral languages, usually in the Bayesian setting. We investigate and compare the evolution of two aspects of culture, languages and weaving technologies, amongst the Kra-Dai (Tai-Kadai) peoples of southwest China and southeast Asia, using Bayesian Markov-Chain Monte Carlo methods to uncover phylogenies. The results show that languages and looms evolved in related but different ways, and bring some new insights into the diaspora of the Kra-Dai speakers across southeast Asia.",
-    "crumbs": [
-      "Home",
-      "2025",
-      "April"
-    ]
-  },
-  {
-    "objectID": "sem/2025/s2025_11.html",
-    "href": "sem/2025/s2025_11.html",
-    "title": "November",
-    "section": "",
-    "text": "Salle 08, PariSanté Campus\n\n\n\n\n\n\n\nTipSeminar time\n\n\n\nThis seminar is scheduled on a Thursday at 3PM\n\n\n\nBilinear mixed models and variational inference\nOmiros Papaspiliopoulos Universita’ Bocconi\nThe talk relates to a book I am currently writing with a political scientist, Max Goplerud (Austin), and deals with variational inference and its applications to large scale inference for generalized bilinear mixed models. This model structure is pervasive throughout applied sciences and includes as special cases generalized linear mixed models, matrix factorization models and item response theory. I will provide a synthesis of our methodological, theoretical and software work in this framework and link to other works and results in the field.\n\n\nA coupling-based approach to f-divergences diagnostics for Markov chain Monte Carlo\nAdrien Corenflos University of Warwick\nJoint work with Hai-Dang Dau. Available on arXiv.\nA long-standing gap exists between the theoretical analysis of Markov chain Monte Carlo convergence, which is often based on statistical divergences, and the diagnostics used in practice. We introduce the first general convergence diagnostics for Markov chain Monte Carlo based on any f-divergence, allowing users to directly monitor, among others, the Kullback–Leibler and the Chi-squared divergences as well as the Hellinger and the total variation distances. Our first key contribution is a coupling-based `weight harmonization’ scheme that produces a direct, computable, and consistent weighting of interacting Markov chains with respect to their target distribution. The second key contribution is to show how such consistent weightings of empirical measures can be used to provide upper bounds to f-divergences in general. We prove that these bounds are guaranteed to tighten over time and converge to zero as the chains approach stationarity, providing a concrete diagnostic. Numerical experiments demonstrate that our method is a practical and competitive diagnostic tool.",
-    "crumbs": [
-      "Home",
-      "2025",
-      "November"
-    ]
-  },
-  {
-    "objectID": "sem/2024/s2024_09.html",
-    "href": "sem/2024/s2024_09.html",
-    "title": "September",
-    "section": "",
-    "text": "Salle 03, PariSanté Campus\n\n\nProximal Interacting Particle Langevin Algorithms\nFrancesca Crucinio King’s College London\nWe introduce a class of algorithms, termed Proximal Interacting Particle Langevin Algorithms (PIPLA), for inference and learning in latent variable models whose joint probability density is non-differentiable. Leveraging proximal Markov chain Monte Carlo (MCMC) techniques and the recently introduced interacting particle Langevin algorithm (IPLA), we propose several variants within the novel proximal IPLA family, tailored to the problem of estimating parameters in a non-differentiable statistical model. We prove nonasymptotic bounds for the parameter estimates produced by the different algorithms in the strongly log-concave setting and provide comprehensive numerical experiments on various models to demonstrate the effectiveness of the proposed methods. In particular, we demonstrate the utility of our family of algorithms on a toy hierarchical example where our assumptions can be checked, as well as for sparse Bayesian logistic regression, training of sparse Bayesian neural networks, and sparse matrix completion. Our theory and experiments together show that PIPLA family can be the de facto choice for parameter estimation problems in non-differentiable latent variable models.\n\n\nNumerical Methods for SDEs with Irregular Coefficients\nTim Johnston Ceremade, Université Paris Dauphine-PSL\nIn this talk we discuss numerical methods for SDEs with irregular coefficients. We survey a number of results in the numerical analysis literature that demonstrate that the accuracy of numerical methods does not necessarily degenerate with the regularity of the drift coefficient. Finally we discuss applications to stochastic algorithms.",
-    "crumbs": [
-      "Home",
-      "2024",
-      "September"
-    ]
-  },
-  {
-    "objectID": "sem/2024/s2024_02.html",
-    "href": "sem/2024/s2024_02.html",
-    "title": "February",
-    "section": "",
-    "text": "Salle 07, PariSanté Campus\n\n\nSampling probability distributions on constrained spaces\nPierre Jacob ESSEC Business School\nI will describe the problem of designing MCMC samplers for probability distributions that are supported on submanifolds, and its relevance in statistics (hypothesis testing, Bayesian inference), and how one may implement couplings of such MCMC kernels. The question also arises when the target is supported in \\(R^d\\) and one wants to propose moves along the contour of the target density function, which could be well motivated, and has been suggested multiple times in the literature. Joint work with Elena Bortolato (Padova) and Robin Ryder (Paris-Dauphine).\n\n\nInsufficient Gibbs Sampling\nAntoine Luciano Ceremade, Université Paris Dauphine-PSL\nIn some applied scenarios, the availability of complete data is restricted, often due to privacy concerns, and only aggregated, robust and inefficient statistics derived from the data are accessible. These robust statistics are not sufficient, but they demonstrate reduced sensitivity to outliers and offer enhanced data protection due to their higher breakdown point. In this article, operating within a parametric framework, we propose a method to sample from the posterior distribution of parameters conditioned on different robust and inefficient statistics: specifically, the pairs (median, MAD) or (median, IQR), or one or more quantiles. Leveraging a Gibbs sampler and the simulation of latent augmented data, our approach facilitates simulation according to the posterior distribution of parameters belonging to specific families of distributions. We demonstrate its applicability on the Gaussian, Cauchy, and translated Weibull families.\n(Preprint: https://arxiv.org/abs/2307.14973)",
-    "crumbs": [
-      "Home",
-      "2024",
-      "February"
-    ]
-  },
-  {
-    "objectID": "sem/2024/s2024_11.html",
-    "href": "sem/2024/s2024_11.html",
-    "title": "November",
-    "section": "",
-    "text": "Auditorium, PariSanté Campus\n\n\nSaddlepoint Monte Carlo and its application to the statistical analysis of vote carryover in French elections\nNicolas Chopin ENSAE-CREST, Institut Polytechnique de Paris\nAssuming X is a random vector and A a non-invertible matrix, one sometimes need to perform inference while only having access to samples of Y = AX. The corresponding likelihood is typically intractable. One may still be able to perform exact Bayesian inference using a pseudo-marginal sampler, but this requires an unbiased estimator of the intractable likelihood. We propose saddlepoint Monte Carlo, a method for obtaining an unbiased estimate of the density of Y with very low variance, for any model belonging to an exponential family. Our method relies on importance sampling of the characteristic function, with insights brought by the standard saddlepoint approximation scheme with exponential tilting. We show that saddlepoint Monte Carlo makes it possible to perform exact inference on particularly challenging problems and datasets. We focus on the ecological inference problem, where one observes only aggregates at a fine level. We present in particular a study of the carryover of votes between the two rounds of various French elections, using the finest available data (number of votes for each candidate in about 60,000 polling stations over most of the French territory). We show that existing, popular approximate methods for ecological inference can lead to substantial bias, which saddlepoint Monte Carlo is immune from. We also present original results for the 2024 legislative elections on political centre-to-left and left-to-centre conversion rates when the far-right is present in the second round. Finally, we discuss other exciting applications for saddlepoint Monte Carlo, such as dealing with aggregate data in privacy or inverse problems.\nJoint work with Robin Ryder (Imperial) and Théo Voldoire (Harvard University). Link: https://arxiv.org/abs/2410.18243\n\n\nExact and approximate filtering via discrete dual processes\nGuillaume Kon Kam King INRAE\nExact inference for hidden Markov models requires the evaluation of all distributions of interest – filtering, prediction, smoothing and likelihood – with a finite computational effort. We provide sufficient conditions for exact inference for a class of hidden Markov models on general state spaces given a set of discretely collected indirect observations linked non linearly to the signal, and a set of practical algorithms for inference. The conditions we obtain are concerned with the existence of a certain type of dual process, which is an auxiliary process embedded in the time reversal of the signal, that in turn allows to represent the distributions and functions of interest as finite mixtures of elementary densities or products thereof. We then turn to a more general class of dual processes which do not provide computable expressions for the filtering distributions but countable mixtures indexed by the dual process state space. We investigate the performance of our strategies on two hidden Markov models driven by Cox–Ingersoll–Ross and Wright–Fisher diffusions.",
-    "crumbs": [
-      "Home",
-      "2024",
-      "November"
-    ]
-  },
-  {
-    "objectID": "sem/2024/s2024_04_sp.html",
-    "href": "sem/2024/s2024_04_sp.html",
-    "title": "April II",
-    "section": "",
-    "text": "Salle 08, PariSanté Campus\n\n\nMCMC when you do not want to evaluate the target distribution\nGuanyang Wang Rutgers University\nIn sampling tasks, it is common for target distributions to be known up to a normalizing constant. However, in many situations, evaluating even the unnormalized distribution can be costly or infeasible. This issue arises in scenarios such as sampling from the Bayesian posterior for large datasets and the ‘doubly intractable’ distributions. We provide a way to unify various MCMC algorithms, including several minibatch MCMC algorithms and the exchange algorithm. This framework not only simplifies the theoretical analysis of existing algorithms but also creates new algorithms. Similar frameworks exist in the literature, but they concentrate on different objectives.\n\n\n\n\n\n\nTipSpecial edition\n\n\n\nAll About That Bayes and Mostly Monte Carlo joint seminar!",
-    "crumbs": [
-      "Home",
-      "2024",
-      "April II"
-    ]
-  },
-  {
-    "objectID": "sem/2024/s2024_10.html",
-    "href": "sem/2024/s2024_10.html",
-    "title": "October",
-    "section": "",
-    "text": "Auditorium, PariSanté Campus\n\n\nSkew-symmetric schemes for SDEs and where to find them\nGiorgos Vasdekis Newcastle University\nLocally balancing algorithms are a new class of MCMC algorithms, recently introduced in (Livingstone and Zanella, 2022). One of these algorithms, the Barker algorithm, has been shown to be robust to heteroskedasticity of the posterior target and the step size of the algorithm. At the same time, the algorithm seems to preserve high dimensional properties of state-of-the-art MCMC, making it an interesting alternative to the existing literature. It turns out that in order to sample from the Barker algorithm, one can use ideas of sampling from skew-symmetric distributions. We will transfer these ideas in the context of simulating from diffusion processes and we will suggest a new class of unadjusted MCMC algorithms, which are robust with respect to the step size.\nThis is joint work with S. Livingstone, N. Nusken and R. Zhang.\n\n\nScalable sampling using annealing and sequential Monte Carlo samplers\nSaifuddin Syed Oxford University\nGenerating samples from complex probability distributions is a fundamental challenge in statistical modelling and Bayesian statistics. In practice, this is generally impossible, and we must introduce a simpler reference distribution, such as a Gaussian, and manipulate its density and samples to approximate the target. In general, direct inference is reliable when the reference is close to the target and fragile when it is not. Annealing is a popular technique motivated by this principle and introduces a sequence of distributions that interpolates between the reference and target, ensuring the neighbouring distributions are close enough. An annealing algorithm specifies how to traverse this bridge of distributions to incrementally transform samples from the reference into samples approximating the target.\nIn this talk, we will analyse a popular annealing algorithm, Sequential Monte Carlo Samplers (SMCS), which sequentially propagates samples from the reference to the target using importance sampling. We will see how SMCS’s performance scales with increasing runtime, parallelism, memory, and the difficulty of the inference problem. We will then use these theoretical insights to develop a black-box algorithm for efficiently tuning SMCS and related annealing algorithms.",
-    "crumbs": [
-      "Home",
-      "2024",
-      "October"
-    ]
-  },
-  {
-    "objectID": "sem/summary_2025.html",
-    "href": "sem/summary_2025.html",
-    "title": "Seminars 2025",
-    "section": "",
-    "text": "January\n\n\n\n\n\n\n\n\nJan 10, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary\n\n\n\n\n\n\n\n\nFeb 14, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nMarch\n\n\n\n\n\n\n\n\nMar 14, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nApril\n\n\n\n\n\n\n\n\nApr 11, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nMay\n\n\n\n\n\n\n\n\nMay 16, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nOctober\n\n\n\n\n\n\n\n\nOct 17, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nNovember\n\n\n\n\n\n\n\n\nNov 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nDecember\n\n\n\n\n\n\n\n\nDec 12, 2025\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Home",
-      "2025"
-    ]
-  },
-  {
-    "objectID": "sem/2023/s2023_10.html",
-    "href": "sem/2023/s2023_10.html",
-    "title": "October",
-    "section": "",
-    "text": "Salle 07, PariSanté Campus\n\n\nPiecewise deterministic sampling with splitting schemes\nAndrea Bertazzi CMAP, École Polytechnique \nPiecewise deterministic Markov processes (PDMPs) received substantial interest in recent years as an alternative to classical Markov chain Monte Carloalgorithms. While theoretical properties of PDMPs have been studied extensively, their practical implementation remains limited to specific applications in which bounds on the gradient of the negative log-target can be derived. In order to address this problem, we propose to approximate PDMPs using splitting schemes, that means simulating the deterministic dynamics and the random jumps in two different stages. We show that symmetric splittings of PDMPs are of second order. Then we focus on the Zig-Zag sampler (ZZS) and show how to remove the bias of the splitting scheme with a skew reversible Metropolis filter. Finally, we illustrate with numerical simulations the advantages of our proposed scheme over competitors.\n\n\nBayesian score calibration for approximate models\nJoshua Bon Ceremade, Université Paris Dauphine-PSL\nScientists continue to develop increasingly complex mechanistic models to reflect their knowledge more realistically. Statistical inference using these models can be challenging since the corresponding likelihood function is often intractable and model simulation may be computationally burdensome.  Fortunately, in many of these situations, it is possible to adopt a surrogate model or approximate likelihood function.  It may be convenient to base Bayesian inference directly on the surrogate, but this can result in bias and poor uncertainty quantification.  In this paper we propose a new method for adjusting approximate posterior samples to reduce bias and produce more accurate uncertainty quantification.  We do this by optimizing a transform of the approximate posterior that maximizes a scoring rule.  Our approach requires only a (fixed) small number of complex model simulations and is numerically stable.  We demonstrate good performance of the new method on several examples of increasing complexity.",
+    "text": "Salle 08, PariSanté Campus\n\n\nSVBMC: Fast post-processing Bayesian inference with noisy evaluations of the likelihood\nGrégoire Clarté University of Helsinki, University of Edinburgh\nIn many cases, the exact likelihood is unavailable, and can only be accessed through a noisy and expensive process – for example, in Plasma Physics. Furthermore, Bayesian inference often comes in at a second moment, for example after running an optimization algorithm to find a MAP estimate. To tackle both these issues, we introduce Sparse Variational Bayesian Monte Carlo (SVBMC), a method for fast “post-processes” Bayesian inference for models with black-box and noisy likelihoods. SVBMC reuses all existing target density evaluations – for example, from previous optimizations or partial Markov Chain Monte Carlo runs – to build a sparse Gaussian process (GP) surrogate model of the log posterior density. Uncertain regions of the surrogate are then refined via active learning as needed. Our work builds on the Variational Bayesian Monte Carlo (VBMC) framework for sample-efficient inference, with several novel contributions. First, we make VBMC scalable to a large number of pre-existing evaluations via sparse GP regression, deriving novel Bayesian quadrature formulae and acquisition functions for active learning with sparse GPs. Second, we introduce noise shaping, a general technique to induce the sparse GP approximation to focus on high posterior density regions. Third, we prove theoretical results in support of the SVBMC refinement procedure. We validate our method on a variety of challenging synthetic scenarios and real-world applications. We find that SVBMC consistently builds good posterior approximations by post-processing of existing model evaluations from different sources, often requiring only a small number of additional density evaluations.\n\n\nVariance reduction using control variates and importance sampling for applications in computational statistical physics\nUrbain Vaes INRIA, CERMICS\nThe scaling of the mobility coefficient associated with two-dimensional Langevin dynamics in a periodic potential as the friction vanishes is not well understood. Theoretical results are lacking, and numerical calculation of the mobility in the underdamped regime is challenging. In the first part of this talk, I will present a new variance reduction approach based on control variates for efficiently estimating the mobility of Langevin-type dynamics, together with numerical experiments illustrating the performance of the approach.\nIn the second part of this talk, we study an importance sampling approach for calculating averages with respect to multimodal probability distributions. Traditional Markov chain Monte Carlo methods to this end, which are based on time averages along a realization of a Markov process ergodic with respect to the target probability distribution, are usually plagued by a large variance due to the metastability of the process. The estimator we study is based on an ergodic average along a realization of an overdamped Langevin process for a modified potential. We obtain an explicit expression for the optimal biasing potential in dimension 1 and propose a general numerical approach for approximating the optimal potential in the multi-dimensional setting.",
     "crumbs": [
       "Home",
       "2023",
-      "October"
+      "December"
     ]
   },
   {
-    "objectID": "sem/summary_2023.html",
-    "href": "sem/summary_2023.html",
-    "title": "Seminars 2023",
+    "objectID": "sem/s202X_XX.html",
+    "href": "sem/s202X_XX.html",
+    "title": "MONTH",
     "section": "",
-    "text": "October\n\n\n\n\n\n\n\n\nOct 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nNovember\n\n\n\n\n\n\n\n\nNov 17, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nDecember\n\n\n\n\n\n\n\n\nDec 15, 2023\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Home",
-      "2023"
-    ]
+    "text": "Room: Salle XX, PariSanté Campus\n\n\nTitle\nSpeaker Affiliation\nAbstract\n\n\nTitle\nSpeaker Affiliation\nAbstract"
   },
   {
     "objectID": "psc_rooms.html",
@@ -311,5 +323,16 @@
     "title": "Rooms at PariSanté",
     "section": "",
     "text": "Location: PariSanté Campus\n\nMore information on travelling to PariSanté and the facilities is available here."
+  },
+  {
+    "objectID": "sem/summary_2026.html",
+    "href": "sem/summary_2026.html",
+    "title": "Seminars 2026",
+    "section": "",
+    "text": "January\n\n\n\n\n\n\n\n\nJan 16, 2026\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Home",
+      "2026"
+    ]
   }
 ]

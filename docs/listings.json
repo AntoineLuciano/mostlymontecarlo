@@ -1,17 +1,10 @@
 [
   {
-    "listing": "/sem/summary_2024.html",
+    "listing": "/sem/summary_2023.html",
     "items": [
-      "/sem/2024/s2024_01.html",
-      "/sem/2024/s2024_02.html",
-      "/sem/2024/s2024_03.html",
-      "/sem/2024/s2024_04.html",
-      "/sem/2024/s2024_04_sp.html",
-      "/sem/2024/s2024_05.html",
-      "/sem/2024/s2024_09.html",
-      "/sem/2024/s2024_10.html",
-      "/sem/2024/s2024_11.html",
-      "/sem/2024/s2024_12.html"
+      "/sem/2023/s2023_10.html",
+      "/sem/2023/s2023_11.html",
+      "/sem/2023/s2023_12.html"
     ]
   },
   {
@@ -28,11 +21,24 @@
     ]
   },
   {
-    "listing": "/sem/summary_2023.html",
+    "listing": "/sem/summary_2024.html",
     "items": [
-      "/sem/2023/s2023_10.html",
-      "/sem/2023/s2023_11.html",
-      "/sem/2023/s2023_12.html"
+      "/sem/2024/s2024_01.html",
+      "/sem/2024/s2024_02.html",
+      "/sem/2024/s2024_03.html",
+      "/sem/2024/s2024_04.html",
+      "/sem/2024/s2024_04_sp.html",
+      "/sem/2024/s2024_05.html",
+      "/sem/2024/s2024_09.html",
+      "/sem/2024/s2024_10.html",
+      "/sem/2024/s2024_11.html",
+      "/sem/2024/s2024_12.html"
+    ]
+  },
+  {
+    "listing": "/sem/summary_2026.html",
+    "items": [
+      "/sem/2026/s2026_01.html"
     ]
   }
 ]

@@ -13,26 +13,26 @@ Organised by Timothy Johnston and [Antoine Luciano](https://sites.google.com/vie
 ------------------------------------------------------------------------
 ::: callout-tip
 
-## Following Seminar: 12th December
+## Following Seminar: 16th January 
 
-[Salle 03](psc_rooms.qmd), 3PM Thursday
+[Salle 03](psc_rooms.qmd), 3PM Friday
+
+-  **Cameron Bell** *Université Paris Dauphine - PSL*
+-  **Achraf Azize** *ENSAE*
+
+[More details...](sem/2026/s2026_01.qmd)
+:::
+
+::: callout-warning
+
+## Last Seminar: 12th December
+
+[Salle 03](psc_rooms.qmd), 3PM Friday
 
 -  **Yvann le Fay** *ENSAE*
 -  **Paolo Onorati** *Université Paris Dauphine - PSL*
 
 [More details...](sem/2025/s2025_12.qmd)
-:::
-
-::: callout-warning
-
-## Last Seminar: 13th November
-
-[Salle 08](psc_rooms.qmd), 3PM Thursday
-
--  **Omiros Papaspiliopoulos** *Universita' Bocconi*
--  **Adrien Corenflos** *University of Warwick*
-
-[More details...](sem/2025/s2025_11.qmd)
 :::
 
 
