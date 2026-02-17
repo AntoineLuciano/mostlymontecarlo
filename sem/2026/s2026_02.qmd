@@ -1,0 +1,29 @@
+---
+  title: "February"
+  date: "2026-02-20 15:00"
+  published-title: "Time and date"
+  date-format: "hA dddd, MMM D, YYYY"
+---
+
+[Salle 03](../../psc_rooms.qmd), [PariSanté Campus](https://maps.app.goo.gl/cpFoxoZgbT6HCV6x9)
+
+------------------------------------------------------------------------
+
+:::{.callout-tip}
+## Seminar time
+
+This seminar is scheduled for **3PM**. 
+:::
+
+### Convergence and Linear Speed-Up in Stochastic Federated Learning
+
+
+**[Paul Mangold](https://pmangold.fr/)** *SIMPAS, École Polytechnique*
+
+In federated learning, multiple users collaboratively train a machine learning model without sharing local data. To reduce communication, users perform multiple local stochastic gradient steps that are then aggregated by a central server. However, due to data heterogeneity, local training introduces bias. In this talk, I will present a novel interpretation of the Federated Averaging algorithm, establishing its convergence to a stationary distribution. By analyzing this distribution, we show that the bias consists of two components: one due to heterogeneity and another due to gradient stochasticity. I will then extend this analysis to the Scaffold algorithm, demonstrating that it effectively mitigates heterogeneity bias but not stochasticity bias. Finally, we show that both algorithms achieve linear speed-up in the number of agents, a key property in federated stochastic optimization.
+
+### TBA
+
+**[Alain Durmus](https://alain.perso.math.cnrs.fr/)** *CMAP, École Polytechnique*
+
+TBA

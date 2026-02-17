@@ -19,6 +19,7 @@ website:
         href: sem/summary_2026.qmd
         contents:
           - sem/2026/s2026_01.qmd
+          - sem/2026/s2026_02.qmd
       - section: "2025"
         href: sem/summary_2025.qmd
         contents:

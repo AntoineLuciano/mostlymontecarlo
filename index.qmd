@@ -13,7 +13,19 @@ Organised by Timothy Johnston and [Antoine Luciano](https://sites.google.com/vie
 ------------------------------------------------------------------------
 ::: callout-tip
 
-## Following Seminar: 16th January 
+## Next Seminar: 20th February
+
+[Salle 03](psc_rooms.qmd), 3PM Friday
+
+-  **Paul Mangold** *SIMPAS*
+-  **Alain Durmus** *CMAP*
+
+[More details...](sem/2026/s2026_2.qmd)
+:::
+
+::: callout-warning
+
+## Last Seminar: 16th January 
 
 [Salle 03](psc_rooms.qmd), 3PM Friday
 
@@ -23,17 +35,7 @@ Organised by Timothy Johnston and [Antoine Luciano](https://sites.google.com/vie
 [More details...](sem/2026/s2026_01.qmd)
 :::
 
-::: callout-warning
 
-## Last Seminar: 12th December
-
-[Salle 03](psc_rooms.qmd), 3PM Friday
-
--  **Yvann le Fay** *ENSAE*
--  **Paolo Onorati** *Université Paris Dauphine - PSL*
-
-[More details...](sem/2025/s2025_12.qmd)
-:::
 
 
 
