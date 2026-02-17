@@ -20,7 +20,7 @@ Organised by Timothy Johnston and [Antoine Luciano](https://sites.google.com/vie
 -  **Paul Mangold** *SIMPAS*
 -  **Alain Durmus** *CMAP*
 
-[More details...](sem/2026/s2026_2.qmd)
+[More details...](sem/2026/s2026_02.qmd)
 :::
 
 ::: callout-warning
