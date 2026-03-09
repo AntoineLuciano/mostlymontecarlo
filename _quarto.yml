@@ -58,9 +58,6 @@ format:
     theme: yeti
     css: styles.css
     toc: true
-    include-in-header:
-      text: |
-        <link rel="apple-touch-icon" sizes="180x180" href="/mostlymontecarlo/data/favicon64.png">
 
 editor: visual
 
