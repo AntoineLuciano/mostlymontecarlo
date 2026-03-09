@@ -37,11 +37,6 @@ Organised by Timothy Johnston and [Antoine Luciano](https://sites.google.com/vie
 :::
 
 
-
-
-
-
-
 ## Join the mailing list
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeYfJCkKc8sO4SR8qemic3ctTwcoRcmCrapRHIIT-BFA3-pEA/viewform?embedded=true" width="640" height="676" frameborder="0" marginheight="0" marginwidth="0">
