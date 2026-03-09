@@ -13,7 +13,18 @@ Organised by Timothy Johnston and [Antoine Luciano](https://sites.google.com/vie
 ------------------------------------------------------------------------
 ::: callout-tip
 
-## Next Seminar: 20th February
+## Next Seminar: 13th March
+
+[Salle 03](psc_rooms.qmd), 3PM Friday
+
+-  **Pierre Del Moral** *INRIA Bordeaux*
+-  **Bob Carpenter** *Flatiron Institute*
+
+[More details...](sem/2026/s2026_03.qmd)
+:::
+::: callout-warning
+
+## Last Seminar: 20th February
 
 [Salle 03](psc_rooms.qmd), 3PM Friday
 
@@ -23,17 +34,7 @@ Organised by Timothy Johnston and [Antoine Luciano](https://sites.google.com/vie
 [More details...](sem/2026/s2026_02.qmd)
 :::
 
-::: callout-warning
 
-## Last Seminar: 16th January 
-
-[Salle 03](psc_rooms.qmd), 3PM Friday
-
--  **Cameron Bell** *Université Paris Dauphine - PSL*
--  **Achraf Azize** *ENSAE*
-
-[More details...](sem/2026/s2026_01.qmd)
-:::
 
 
 

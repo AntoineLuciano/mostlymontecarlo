@@ -1,0 +1,30 @@
+---
+  title: "March"
+  date: "2026-03-13 15:00"
+  published-title: "Time and date"
+  date-format: "hA dddd, MMM D, YYYY"
+---
+
+[Salle 03](../../psc_rooms.qmd), [PariSanté Campus](https://maps.app.goo.gl/cpFoxoZgbT6HCV6x9)
+
+------------------------------------------------------------------------
+
+:::{.callout-tip}
+## Seminar time
+
+This seminar is scheduled for **3PM**. 
+:::
+
+### On the Kantorovich contraction of Markov semigroup
+
+**[Pierre Del Moral](https://people.bordeaux.inria.fr/pierre.delmoral/biog.html)** *INRIA Bordeaux*
+
+We present a novel operator theoretic framework to study the contraction properties of  Markov semigroups with respect to a general class of Kantorovich semi-distances, which notably includes Wasserstein distances.  This rather simple contraction cost framework combines standard Lyapunov techniques with local contraction conditions. 
+Our results can be applied to both discrete time and continuous time Markov semigroups, and we illustrate their  wide applicability  in the context of (i) Markov transitions on models with boundary states, including bounded domains with entrance boundaries,  (ii) operator products of a Markov kernel and its adjoint, including  two-block-type Gibbs samplers,  (iii) iterated random functions  and (iv) diffusion models, including overdampted Langevin diffusion with convex at infinity potentials.
+
+### GIST, WALNUTS, and Continuous Nutpie: mass-matrix and step-size adaptation for Hamiltonian Monte Carlo
+
+**[Bob Carpenter](https://bob-carpenter.github.io/)** *Flatiron Institute*
+
+I will introduce Gibbs self tuning (GIST), our new technique for coupling tuning parameters and conditionally Gibbs-sampling them per iteration in Hamiltonian Monte Carlo.  Then I will turn to the within-orbit adaptive NUTS (WALNUTS) sampler, which adapts the step size every leapfrog step in order to conserve the Hamiltonian. Empirical evaluations on varying multi-scale target distributions, including Neal's funnel and the Stock-Watson stochastic volatility time-series model, demonstrate that WALNUTS achieves substantial improvements in sampling efficiency and robustness.
+I will review the Nutpie mass-matrix adaptation scheme, which is designed to minimize Fisher divergence by estimating the mass matrix as the geometric midpoint (aka barycenter) between the inverse covariance of the draws and the covariance of the scores of the draws. Then I will describe a continuously adapting version that adapts per iteration by continuously discounting the past rather than updating in fixed blocks.  I will also show how the Adam optimizer outperforms dual averaging for step-size adaptation.  I will conclude by considering a lock-free multi-threading implementation that automatically monitors adaptation and sampling for convergence for automatic stopping.

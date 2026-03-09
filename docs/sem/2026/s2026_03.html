@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>April II – Mostly Monte Carlo Seminar</title>
+<title>March – Mostly Monte Carlo Seminar</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../sem/2024/s2024_05.html" rel="next">
-<link href="../../sem/2024/s2024_04.html" rel="prev">
+<link href="../../sem/summary_2025.html" rel="next">
+<link href="../../sem/2026/s2026_02.html" rel="prev">
 <link href="../../data/favicon64.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -115,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../sem/summary_2024.html">2024</a></li><li class="breadcrumb-item"><a href="../../sem/2024/s2024_04_sp.html">April II</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../sem/summary_2026.html">2026</a></li><li class="breadcrumb-item"><a href="../../sem/2026/s2026_03.html">March</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -162,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../sem/2026/s2026_03.html" class="sidebar-item-text sidebar-link">
+  <a href="../../sem/2026/s2026_03.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">March</span></a>
   </div>
 </li>
@@ -262,7 +262,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../sem/2024/s2024_04_sp.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../sem/2024/s2024_04_sp.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">April II</span></a>
   </div>
 </li>
@@ -337,16 +337,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#mcmc-when-you-do-not-want-to-evaluate-the-target-distribution" id="toc-mcmc-when-you-do-not-want-to-evaluate-the-target-distribution" class="nav-link active" data-scroll-target="#mcmc-when-you-do-not-want-to-evaluate-the-target-distribution">MCMC when you do not want to evaluate the target distribution</a></li>
+  <li><a href="#on-the-kantorovich-contraction-of-markov-semigroup" id="toc-on-the-kantorovich-contraction-of-markov-semigroup" class="nav-link active" data-scroll-target="#on-the-kantorovich-contraction-of-markov-semigroup">On the Kantorovich contraction of Markov semigroup</a></li>
+  <li><a href="#gist-walnuts-and-continuous-nutpie-mass-matrix-and-step-size-adaptation-for-hamiltonian-monte-carlo" id="toc-gist-walnuts-and-continuous-nutpie-mass-matrix-and-step-size-adaptation-for-hamiltonian-monte-carlo" class="nav-link" data-scroll-target="#gist-walnuts-and-continuous-nutpie-mass-matrix-and-step-size-adaptation-for-hamiltonian-monte-carlo">GIST, WALNUTS, and Continuous Nutpie: mass-matrix and step-size adaptation for Hamiltonian Monte Carlo</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../sem/summary_2024.html">2024</a></li><li class="breadcrumb-item"><a href="../../sem/2024/s2024_04_sp.html">April II</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../sem/summary_2026.html">2026</a></li><li class="breadcrumb-item"><a href="../../sem/2026/s2026_03.html">March</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">April II</h1>
+<h1 class="title">March</h1>
 </div>
 
 
@@ -357,7 +358,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Time and date</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">4PM Wednesday, Apr 24, 2024</p>
+      <p class="date">3PM Friday, Mar 13, 2026</p>
     </div>
   </div>
   
@@ -369,25 +370,30 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a href="../../psc_rooms.html">Salle 08</a>, <a href="https://maps.app.goo.gl/cpFoxoZgbT6HCV6x9">PariSanté Campus</a></p>
+<p><a href="../../psc_rooms.html">Salle 03</a>, <a href="https://maps.app.goo.gl/cpFoxoZgbT6HCV6x9">PariSanté Campus</a></p>
 <hr>
-<section id="mcmc-when-you-do-not-want-to-evaluate-the-target-distribution" class="level3">
-<h3 class="anchored" data-anchor-id="mcmc-when-you-do-not-want-to-evaluate-the-target-distribution">MCMC when you do not want to evaluate the target distribution</h3>
-<p><strong>Guanyang Wang</strong> <em>Rutgers University</em></p>
-<p>In sampling tasks, it is common for target distributions to be known up to a normalizing constant. However, in many situations, evaluating even the unnormalized distribution can be costly or infeasible. This issue arises in scenarios such as sampling from the Bayesian posterior for large datasets and the ‘doubly intractable’ distributions. We provide a way to unify various MCMC algorithms, including several minibatch MCMC algorithms and the exchange algorithm. This framework not only simplifies the theoretical analysis of existing algorithms but also creates new algorithms. Similar frameworks exist in the literature, but they concentrate on different objectives.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Special edition
+<span class="screen-reader-only">Tip</span>Seminar time
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><a href="https://sites.google.com/view/all-about-that-bayes/home">All About That Bayes</a> and <strong>Mostly Monte Carlo</strong> joint seminar!</p>
+<p>This seminar is scheduled for <strong>3PM</strong>.</p>
 </div>
 </div>
+<section id="on-the-kantorovich-contraction-of-markov-semigroup" class="level3">
+<h3 class="anchored" data-anchor-id="on-the-kantorovich-contraction-of-markov-semigroup">On the Kantorovich contraction of Markov semigroup</h3>
+<p><strong><a href="https://people.bordeaux.inria.fr/pierre.delmoral/biog.html">Pierre Del Moral</a></strong> <em>INRIA Bordeaux</em></p>
+<p>We present a novel operator theoretic framework to study the contraction properties of Markov semigroups with respect to a general class of Kantorovich semi-distances, which notably includes Wasserstein distances. This rather simple contraction cost framework combines standard Lyapunov techniques with local contraction conditions. Our results can be applied to both discrete time and continuous time Markov semigroups, and we illustrate their wide applicability in the context of (i) Markov transitions on models with boundary states, including bounded domains with entrance boundaries, (ii) operator products of a Markov kernel and its adjoint, including two-block-type Gibbs samplers, (iii) iterated random functions and (iv) diffusion models, including overdampted Langevin diffusion with convex at infinity potentials.</p>
+</section>
+<section id="gist-walnuts-and-continuous-nutpie-mass-matrix-and-step-size-adaptation-for-hamiltonian-monte-carlo" class="level3">
+<h3 class="anchored" data-anchor-id="gist-walnuts-and-continuous-nutpie-mass-matrix-and-step-size-adaptation-for-hamiltonian-monte-carlo">GIST, WALNUTS, and Continuous Nutpie: mass-matrix and step-size adaptation for Hamiltonian Monte Carlo</h3>
+<p><strong><a href="https://bob-carpenter.github.io/">Bob Carpenter</a></strong> <em>Flatiron Institute</em></p>
+<p>I will introduce Gibbs self tuning (GIST), our new technique for coupling tuning parameters and conditionally Gibbs-sampling them per iteration in Hamiltonian Monte Carlo. Then I will turn to the within-orbit adaptive NUTS (WALNUTS) sampler, which adapts the step size every leapfrog step in order to conserve the Hamiltonian. Empirical evaluations on varying multi-scale target distributions, including Neal’s funnel and the Stock-Watson stochastic volatility time-series model, demonstrate that WALNUTS achieves substantial improvements in sampling efficiency and robustness. I will review the Nutpie mass-matrix adaptation scheme, which is designed to minimize Fisher divergence by estimating the mass matrix as the geometric midpoint (aka barycenter) between the inverse covariance of the draws and the covariance of the scores of the draws. Then I will describe a continuously adapting version that adapts per iteration by continuously discounting the past rather than updating in fixed blocks. I will also show how the Adam optimizer outperforms dual averaging for step-size adaptation. I will conclude by considering a lock-free multi-threading implementation that automatically monitors adaptation and sampling for convergence for automatic stopping.</p>
 
 
 </section>
@@ -795,13 +801,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../sem/2024/s2024_04.html" class="pagination-link" aria-label="April I">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">April I</span>
+      <a href="../../sem/2026/s2026_02.html" class="pagination-link" aria-label="February">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">February</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../sem/2024/s2024_05.html" class="pagination-link" aria-label="May">
-        <span class="nav-page-text">May</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../sem/summary_2025.html" class="pagination-link" aria-label="2025">
+        <span class="nav-page-text">2025</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
