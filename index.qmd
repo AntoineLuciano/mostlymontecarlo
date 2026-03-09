@@ -11,6 +11,7 @@ Held on the **2nd Friday of each month** (approximately) at the **PariSanté Cam
 Organised by Timothy Johnston and [Antoine Luciano](https://sites.google.com/view/aluciano), and formerly organised by Andrea Bertazzi and [Joshua Bon](https://bonstats.github.io).
 
 ------------------------------------------------------------------------
+
 ::: callout-tip
 
 ## Next Seminar: 13th March
@@ -22,6 +23,7 @@ Organised by Timothy Johnston and [Antoine Luciano](https://sites.google.com/vie
 
 [More details...](sem/2026/s2026_03.qmd)
 :::
+
 ::: callout-warning
 
 ## Last Seminar: 20th February
