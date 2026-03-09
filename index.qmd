@@ -2,7 +2,7 @@
 title: "Mostly Monte Carlo Seminar Series"
 ---
 
-A monthly seminar on the theory and practice of Monte Carlo in statistics and data science.
+A monthly seminar (mostly) on the theory and practice of Monte Carlo in statistics and data science.
 
 ------------------------------------------------------------------------
 
