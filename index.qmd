@@ -16,7 +16,13 @@ Organisers emeritus: Andrea Bertazzi, [Joshua Bon](https://bonstats.github.io), 
 
 ::: callout-tip
 
-## Next Seminar: 10th April
+## Next Seminar: 5th June
+
+[Salle 06](psc_rooms.qmd), 3PM Friday
+
+-  **Sam Livingstone** *University College London*
+
+## Last Seminar: 10th April
 
 [Salle 06](psc_rooms.qmd), 3PM Friday
 
@@ -28,12 +34,3 @@ Organisers emeritus: Andrea Bertazzi, [Joshua Bon](https://bonstats.github.io), 
 
 ::: callout-warning
 
-## Last Seminar: 13th March
-
-[Salle 03](psc_rooms.qmd), 3PM Friday
-
--  **Pierre Del Moral** *INRIA Bordeaux*
--  **Bob Carpenter** *Flatiron Institute*
-
-[More details...](sem/2026/s2026_03.qmd)
-:::
