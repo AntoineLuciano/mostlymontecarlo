@@ -1,0 +1,28 @@
+---
+  title: "June"
+  date: "2026-06-05 15:00"
+  published-title: "Time and date"
+  date-format: "hA dddd, MMM D, YYYY"
+---
+
+[Salle 06](../../psc_rooms.qmd), [PariSanté Campus](https://maps.app.goo.gl/cpFoxoZgbT6HCV6x9)
+
+------------------------------------------------------------------------
+
+:::{.callout-tip}
+## Seminar time
+
+This seminar is scheduled for **3PM**. 
+:::
+
+### Skew-symmetric numerical schemes for stochastic differential equations: strong convergence and multi-level extension
+
+**[Sam Livingstoke](https://profiles.ucl.ac.uk/37248-sam-livingstone)** *University College London**
+
+I will discuss recent work fusing together two strands of the applied mathematics and statistics literature, one concerned with developing flexible probability distributions for data that rely on a small number of parameters, and another concerned with developing numerical integration schemes to simulate stochastic processes.  The specific case that I will focus on uses the skew-symmetric family of probability distributions introduced by Adelchi Azzalini and co-authors to approximate the transition kernels of diffusion processes over small time steps, producing alternative numerical schemes to the classical Euler--Maruyama approach.  Applying the scheme to the overdamped Langevin diffusion leads to an unadjusted version of the Barker proposal Metropolis--Hastings algorithm.  In earlier work weak accuracy was established over finite and infinite time scales, crucially without needing a globally Lipschitz assumption on the drift of the stochastic differential equation.  I will review this and then discuss more recent work establishing strong convergence in the mean-squared sense using a novel coupling between the numerical and exact processes.  This also enables the development of a multi-level Monte Carlo scheme, which I will discuss the merits of with particular focus on the superlinear drift case, as compared to Euler and Tamed Euler alternatives.  This is joint work with Yuga Iguchi, Giorgos Vasdekis & Rui-Yang Zhang.
+
+### Approximating evidence via bounded harmonic means
+
+**Dana Naderi** *Université Paris Dauphine-PSL*
+
+Efficient Bayesian model selection relies on the model evidence or marginal likelihood, whose computation often requires evaluating an intractable integral. The harmonic mean estimator (HME) has long been a standard method of approximating the evidence. While computationally simple, the version introduced by Newton and Raftery (1994) potentially suffers from infinite variance. To overcome this issue, Gelfand and Dey (1994) defined a standardized representation of the estimator based on an instrumental function and Robert and Wraith (2009) later proposed to use higher posterior density (HPD) indicators as instrumental functions. Following this approach, a practical method is proposed, based on an elliptical covering of the HPD region with non-overlapping ellipsoids. The resulting estimator, called the Elliptical Covering Marginal Likelihood Estimator (ECMLE), not only eliminates the infinite-variance issue of the original HME and allows exact volume computations, but is also able to be used in multimodal settings. Through several examples, we illustrate that ECMLE outperforms other recent methods such as THAMES and its improved version (Metodiev et al. 2025). Moreover, ECMLE demonstrates lower variancea key challenge that subsequent HME variants have sought to address-and provides more stable evidence approximations, even in challenging settings.
