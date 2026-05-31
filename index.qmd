@@ -8,39 +8,32 @@ A monthly seminar (mostly) on the theory and practice of Monte Carlo in statisti
 
 Held on the **2nd Friday of each month** (approximately) at the **PariSanté Campus**.
 
-Organised by Timothy Johnston and [Antoine Luciano](https://sites.google.com/view/aluciano), and formerly organised by Andrea Bertazzi and [Joshua Bon](https://bonstats.github.io).
+Organised by Timothy Johnston and Cameron Bell
+
+Organisers emeritus: Andrea Bertazzi, [Joshua Bon](https://bonstats.github.io), and [Antoine Luciano](https://sites.google.com/view/aluciano).
 
 ------------------------------------------------------------------------
 
 ::: callout-tip
 
-## Next Seminar: 13th March
+## Next Seminar: 5th June
 
-[Salle 03](psc_rooms.qmd), 3PM Friday
+[Salle 06](psc_rooms.qmd), 3PM Friday
 
--  **Pierre Del Moral** *INRIA Bordeaux*
--  **Bob Carpenter** *Flatiron Institute*
+-  **Sam Livingstone** *University College London*
+-  **Dana Naderi** *Université Paris Dauphine-PSL*
 
-[More details...](sem/2026/s2026_03.qmd)
+[More details...](sem/2026/s2026_06.qmd)
+
+## Last Seminar: 10th April
+
+[Salle 06](psc_rooms.qmd), 3PM Friday
+
+-  **Pierre Monmarché** *Université Gustave Eiffel*
+-  **Shiva Darshan** *ESSEC Business School*
+
+[More details...](sem/2026/s2026_04.qmd)
 :::
 
 ::: callout-warning
 
-## Last Seminar: 20th February
-
-[Salle 03](psc_rooms.qmd), 3PM Friday
-
--  **Paul Mangold** *SIMPAS*
--  **Alain Durmus** *CMAP*
-
-[More details...](sem/2026/s2026_02.qmd)
-:::
-
-
-## Join the mailing list
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeYfJCkKc8sO4SR8qemic3ctTwcoRcmCrapRHIIT-BFA3-pEA/viewform?embedded=true" width="100%" height="676" style="max-width: 640px; border: 0;" frameborder="0" marginheight="0" marginwidth="0">
-
-Loading...
-
-</iframe>

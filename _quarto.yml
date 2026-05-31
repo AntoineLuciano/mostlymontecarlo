@@ -21,6 +21,7 @@ website:
           - sem/2026/s2026_01.qmd
           - sem/2026/s2026_02.qmd
           - sem/2026/s2026_03.qmd
+          - sem/2026/s2026_04.qmd
       - section: "2025"
         href: sem/summary_2025.qmd
         contents:

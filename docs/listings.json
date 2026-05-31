@@ -8,24 +8,12 @@
     ]
   },
   {
-    "listing": "/sem/summary_2025.html",
-    "items": [
-      "/sem/2025/s2025_01.html",
-      "/sem/2025/s2025_02.html",
-      "/sem/2025/s2025_03.html",
-      "/sem/2025/s2025_04.html",
-      "/sem/2025/s2025_05.html",
-      "/sem/2025/s2025_10.html",
-      "/sem/2025/s2025_11.html",
-      "/sem/2025/s2025_12.html"
-    ]
-  },
-  {
     "listing": "/sem/summary_2026.html",
     "items": [
       "/sem/2026/s2026_01.html",
       "/sem/2026/s2026_02.html",
-      "/sem/2026/s2026_03.html"
+      "/sem/2026/s2026_03.html",
+      "/sem/2026/s2026_04.html"
     ]
   },
   {
@@ -41,6 +29,19 @@
       "/sem/2024/s2024_10.html",
       "/sem/2024/s2024_11.html",
       "/sem/2024/s2024_12.html"
+    ]
+  },
+  {
+    "listing": "/sem/summary_2025.html",
+    "items": [
+      "/sem/2025/s2025_01.html",
+      "/sem/2025/s2025_02.html",
+      "/sem/2025/s2025_03.html",
+      "/sem/2025/s2025_04.html",
+      "/sem/2025/s2025_05.html",
+      "/sem/2025/s2025_10.html",
+      "/sem/2025/s2025_11.html",
+      "/sem/2025/s2025_12.html"
     ]
   }
 ]

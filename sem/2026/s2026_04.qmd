@@ -1,0 +1,29 @@
+---
+  title: "April"
+  date: "2026-04-10 15:00"
+  published-title: "Time and date"
+  date-format: "hA dddd, MMM D, YYYY"
+---
+
+[Salle 06](../../psc_rooms.qmd), [PariSanté Campus](https://maps.app.goo.gl/cpFoxoZgbT6HCV6x9)
+
+------------------------------------------------------------------------
+
+:::{.callout-tip}
+## Seminar time
+
+This seminar is scheduled for **3PM**. 
+:::
+
+### A post-sampling reweighting method for multi-modal target measures
+
+**[Pierre Monmarché](https://perso.math.u-pem.fr/pmonmarc/)** *Université Gustave Eiffel*
+
+Even when the modes are identified and sampled locally with MCMC methods, a difficulty to sample multi-modal measures is to correctly estimate the relative probabilities of each of these modes, which requires to observe many transitions between them (which are rare events). We will present an approach based on variational inference which exploits the local samples, aiming only at estimating the relative weights between them. When the modes are well separated, this amount to some entropy estimations.
+
+### Maximal-reflection couplings on manifolds: some specific examples
+
+**[Shiva Darshan](shiva-darshan.github.io/)** *ESSEC Business School*
+
+Explicit markovian couplings can be used to build Markov Chain Monte Carlo methods such unbiased MCMC or coupling based control variates. For sampling from probability measures supported on Euclidean space, one typically uses a synchronous coupling, a maximal-reflection coupling (also known as a discrete-time sticky coupling), or some variant of the two. For probability measures supported on Riemannian manifolds, the situation is less clear cut. While the Kendall-Cranston coupling of Brownian motions on manifolds has been successfully applied in theoretical works, it is ill-suited for building explicit algorithms. In this talk, we will discuss some of the obstacles to extending Euclidean maximal-reflection couplings to manifolds and present some special cases for which these obstacles can be easily overcome. With applications to Stereographic MCMC in mind, we detail particular couplings of random walks on the sphere.
+
