@@ -18,39 +18,63 @@ website:
       - section: "2026"
         href: sem/summary_2026.qmd
         contents:
-          - sem/2026/s2026_01.qmd
-          - sem/2026/s2026_02.qmd
-          - sem/2026/s2026_03.qmd
+          - text: January
+            href: sem/2026/s2026_01.qmd
+          - text: February
+            href: sem/2026/s2026_02.qmd
+          - text: March
+            href: sem/2026/s2026_03.qmd
       - section: "2025"
         href: sem/summary_2025.qmd
         contents:
-          - sem/2025/s2025_01.qmd
-          - sem/2025/s2025_02.qmd
-          - sem/2025/s2025_03.qmd
-          - sem/2025/s2025_04.qmd
-          - sem/2025/s2025_05.qmd
-          - sem/2025/s2025_10.qmd
-          - sem/2025/s2025_11.qmd
-          - sem/2025/s2025_12.qmd
+          - text: January
+            href: sem/2025/s2025_01.qmd
+          - text: February
+            href: sem/2025/s2025_02.qmd
+          - text: March
+            href: sem/2025/s2025_03.qmd
+          - text: April
+            href: sem/2025/s2025_04.qmd
+          - text: May
+            href: sem/2025/s2025_05.qmd
+          - text: October
+            href: sem/2025/s2025_10.qmd
+          - text: November
+            href: sem/2025/s2025_11.qmd
+          - text: December
+            href: sem/2025/s2025_12.qmd
       - section: "2024"
         href: sem/summary_2024.qmd
         contents:
-          - sem/2024/s2024_01.qmd
-          - sem/2024/s2024_02.qmd
-          - sem/2024/s2024_03.qmd
-          - sem/2024/s2024_04.qmd
-          - sem/2024/s2024_04_sp.qmd
-          - sem/2024/s2024_05.qmd
-          - sem/2024/s2024_09.qmd
-          - sem/2024/s2024_10.qmd
-          - sem/2024/s2024_11.qmd
-          - sem/2024/s2024_12.qmd
+          - text: January
+            href: sem/2024/s2024_01.qmd
+          - text: February
+            href: sem/2024/s2024_02.qmd
+          - text: March
+            href: sem/2024/s2024_03.qmd
+          - text: April I
+            href: sem/2024/s2024_04.qmd
+          - text: April II
+            href: sem/2024/s2024_04_sp.qmd
+          - text: May
+            href: sem/2024/s2024_05.qmd
+          - text: September
+            href: sem/2024/s2024_09.qmd
+          - text: October
+            href: sem/2024/s2024_10.qmd
+          - text: November
+            href: sem/2024/s2024_11.qmd
+          - text: December
+            href: sem/2024/s2024_12.qmd
       - section: "2023"
         href: sem/summary_2023.qmd
         contents:
-          - sem/2023/s2023_10.qmd
-          - sem/2023/s2023_11.qmd
-          - sem/2023/s2023_12.qmd
+          - text: October
+            href: sem/2023/s2023_10.qmd
+          - text: November
+            href: sem/2023/s2023_11.qmd
+          - text: December
+            href: sem/2023/s2023_12.qmd
   page-navigation: true
 
 format:
@@ -60,4 +84,3 @@ format:
     toc: true
 
 editor: visual
-

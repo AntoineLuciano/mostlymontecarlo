@@ -2,45 +2,20 @@
 title: "Mostly Monte Carlo Seminar Series"
 ---
 
+::: callout-warning
+## This site is no longer maintained
+
+Antoine Luciano no longer organises the Mostly Monte Carlo seminar.
+
+For up-to-date information, please visit the **new official website**: [mostly-monte-carlo.github.io](https://mostly-monte-carlo.github.io/)
+:::
+
 A monthly seminar (mostly) on the theory and practice of Monte Carlo in statistics and data science.
 
 ------------------------------------------------------------------------
 
 Held on the **2nd Friday of each month** (approximately) at the **PariSanté Campus**.
 
-Organised by Timothy Johnston and [Antoine Luciano](https://sites.google.com/view/aluciano), and formerly organised by Andrea Bertazzi and [Joshua Bon](https://bonstats.github.io).
+Organised by Timothy Johnston and Cameron Bell.
 
-------------------------------------------------------------------------
-
-::: callout-tip
-
-## Next Seminar: 13th March
-
-[Salle 03](psc_rooms.qmd), 3PM Friday
-
--  **Pierre Del Moral** *INRIA Bordeaux*
--  **Bob Carpenter** *Flatiron Institute*
-
-[More details...](sem/2026/s2026_03.qmd)
-:::
-
-::: callout-warning
-
-## Last Seminar: 20th February
-
-[Salle 03](psc_rooms.qmd), 3PM Friday
-
--  **Paul Mangold** *SIMPAS*
--  **Alain Durmus** *CMAP*
-
-[More details...](sem/2026/s2026_02.qmd)
-:::
-
-
-## Join the mailing list
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeYfJCkKc8sO4SR8qemic3ctTwcoRcmCrapRHIIT-BFA3-pEA/viewform?embedded=true" width="100%" height="676" style="max-width: 640px; border: 0;" frameborder="0" marginheight="0" marginwidth="0">
-
-Loading...
-
-</iframe>
+Organisers emeriti: Andrea Bertazzi, Joshua Bon, and Antoine Luciano.
